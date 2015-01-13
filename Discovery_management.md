@@ -229,6 +229,88 @@ Learning targets
         IIR = \sum_{n=0}^N \frac{C_n}{(1+r)^n} = 0
 
 ### 4. Introduction to Negotiation
+#### 4.1 Basic Concepts
+    What is negotiation: Exchanges between parties designed to reconcile their differences and produce a settlement.
+    Taxonomy: [Graph]
+    Distributive vs. integrative negotiation
+        Distributive negotiation: competitive, one issue, win-lose approach
+        Integrative negotiation: mutual gains, many issues, win-win approach
+##### 4.1.2 Rationality
+    1. Definition often used
+    Rational under certainty
+    Rational under uncertainty
+    2. Definition: Rational behavior 
+    Behaving rationally
+    3. Our hypothesis
+    Conducted/monitored by professional persons of the negotiation party
+    Of which a couple of persons are not directly participating in the negotiation but work in a sort of "back-office" / "head-office" functions
+    Where the work culture permits an internal objective/criticla  
+#### 4.2 Negotiation Theories 
+##### 4.2.1 Harvard Method
+    1. People: separate the people from the problem
+    2. Interests: focus on interests, not positions
+    3. Options: Invent multiple options looking for mutual gains before deciding what to do
+    4. Criteria: Insist that the result are based on some objective standard
+##### 4.2.2 Game Theory
+    * Analysis of strategic decision-making and conflict of interests among the players
+    * Result of the decision-making depends on the other players' decisions
+    * Strictly formalized by means of mathematical models
+    * Founder of the game theory: John von Neumann
+
+    Prisoners' Dilemma: Pareto, Nash
+#### 4.3 Current Case
+##### 4.3.1 Definition
+    Negotiation engineering: th application of a process by which a complex negotiatio problem is divided into sub-problems in order to make them easier solvable; and the use of scientific or other methods based on objective criteria to solve the above mentioned sub-problems
+##### 4.3.2 Case studies
+##### 4.3.2.1 Iran-P5+1\*:Nuclear question
+    1. Backgroud
+    2. Negotiation/Swiss mediation
+    3. Result
+    4. Conclusion
+##### 4.3.2.2 CH-EU Land Transport Agreement
+    1. Background
+    2. Negotiation
+    3. Results
+    4. Conclusion
+#### 4.4 Negotiation Process
+##### 4.4.1 Phases of negotiation
+    1. Recognize/identify the problem
+    2. Explore negotiation possibilities
+    3. Get a mandate
+    4. Negotiate within your mandate. If you have to change the mandate, you should be sure, that it is final.
+    5. Initial, if practice
+    6. Signing
+    7. Approval, if necessary
+    8. Entry into force
+    9. Open the champagne
+##### 4.4.2 Preparation for negotiation
+    - Explore the situation well: Get the maximum of information on:
+        - The problem
+        - The other side's position
+        - Your possibilities
+    - Mandate-drafting is decisive:
+        - Draft it yourself, if possible
+        - Mandate should be ambitious, but reasonable/realistic so that later adaptions do not become necessary
+##### 4.4.3 Behavioral and cultural aspects
+#### 4.5 Recommendations
+
+
+### 5. Logistics, Operations, and Supply Chain Management
+#### 5.1 Basic Definitions, Issues, and Challenges
+    - A good is something that has an economic utility or satisfies an economic want
+    - The noun form of an adjective with the meaning
+        - fitting in a building or human society
+        - suitable, serviceable, convenient or effective
+    - A produce is something produced as commodity or similar
+    - A product is something brought about by intellectual or physical effort
+    - An artifact is something created by humans, usually for a practical purpose
+    - Materials are the elements, consituents or substances of which something is composed or can be made. Beside raw materials, also documents, evidence, certificates or similar things may serve as materials
+    - A component
+        - One of several parts that together make up a whole machine
+        - With regard to a product, components are goods that become part of a product during manufacturing (e.g. through installation) or arise from a product during disposal
+#### 5.2 Strategies in the Entrepreneurial Context
+#### 5.3 Performance Measuremenet
+    
 > Basic Concepts
 
 
