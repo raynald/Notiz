@@ -311,6 +311,50 @@ Learning targets
 #### 5.2 Strategies in the Entrepreneurial Context
 #### 5.3 Performance Measuremenet
     
+### 6 Risk Management
+#### 6.1 What is risk?
+ - Definition of Risk: risk = uncertainty + damage
+   risk = hazard / safeguards
+
+ - Industrial risks
+    - Change in technology, productivity, prices
+    - False estimates of the rated capacity.
+    - Time needed for the construction and running-in periods, political, social, and business environment
+ - Operational risks
+    - Lack of entrepreneurship skills.
+    - Poor understanding of market dynamics.
+    - Poorly available consultancy services and information systems.
+    - Poor understanding of how to prepare a business plan
+    - Natural risk (ice cream, energy companies, constructor companies)
+ - Market risks
+    - Unforeseeable inflation and exchange rates change.
+    - Customer behaviors to buy foreign goods.
+    - Inadequate infrastructure.
+    - Shrinking market because of foreign competitors.
+    - Defaulting or insolvency, Credit risks
+- Cultural risks
+- Natural risks (Hailstorms, earthquakes, hurricanes, dry seasons, and other natural hazards
+- Economic and political risks
+
+#### 6.2 Principles of management
+#### 6.3 Power law risks
+#### 6.4 Creep concept and advanced diagnostics
+#### 6.5 Risk Management failtures
+
+### 7. Technology and Innovation Management
+A Bug's Life: Three challenges: the leaf as an obstacle, there is a gap in the production line, failure in the harvesting machine - hit the princess
+#### 7.1 Exploitation and exploration
+ - Exploitation: Refinement, production, efficiency, implementation
+ - Exploration: Variation, risk taking, experimentation, play, flexibility 
+
+### 8. Business and Macroeconomics
+ - Macroeconomics
+    GDP: Consumption, Investment, Goverment Purchases, Net Exports (exports minus imports)
+
+
+
+
+
 > Basic Concepts
 
 
@@ -321,4 +365,4 @@ $ git clone
 
 # Vocabulary
     1. ethnography, baristas 
-    2. 
+    7. Polaroid, Ambidexterity
