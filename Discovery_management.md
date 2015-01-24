@@ -350,10 +350,20 @@ A Bug's Life: Three challenges: the leaf as an obstacle, there is a gap in the p
 ### 8. Business and Macroeconomics
  - Macroeconomics
     GDP: Consumption, Investment, Goverment Purchases, Net Exports (exports minus imports)
+ - Economic forecast
 
+### 9. Introduction to Strategic Management
+ - A brief history of the strategy field
+ - Strategic management process
+ - Competitive strategy
+    Creating and maintaining a competitive advantage in each and every area of business
+    Industry structure determines the profitability
+   - Cost leadership
+   - Differentiation
+ - Product differentiation
 
-
-
+### 10. Information Management
+ - Business Model Definition - The Magic Triangle
 
 > Basic Concepts
 
