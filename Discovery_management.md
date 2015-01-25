@@ -363,7 +363,105 @@ A Bug's Life: Three challenges: the leaf as an obstacle, there is a gap in the p
  - Product differentiation
 
 ### 10. Information Management
+ - CEO CIO, leveraging IT, managing IT
+ - Google Trend Check
+    - Product Innovation
+    - Process Innovation
+    - Business Model Innovation
  - Business Model Definition - The Magic Triangle
+    - Value Proposition
+    - Revenue Model
+    - Value Chain
+ - It plays an important role in BMI
+ - E-commerce, Two-sided market, Hidden Revenue, Affiliation, Long Tail, Peer to peer, Freemium, Leverage Customer Data, Open source
+ - Definition of Information Management 
+ - The role of IT in the company
+ - Challenge 1: Legacy Systems
+ - Challenge 2: Interfaces (with legacy systems)
+ - Challenge 3: The Dominance of Operations
+ - Challenge 4: Shadow or "Iceberg" IT
+ - Challenge 5: Cost cutting(efficiency) vs. Innovation(effectiveness)
+ - Challenge 6: Information management is made by human beings for human beings
+ - Challenge 7: ICT breakdown
+ IT Governance: specifying the decision rights and accountability framework to encourage desirable behavior in the use of IT.
+ IT Infrastructure Library (ITIL)
+ Control Objectives for Information and Related Technology (CobiT)
+
+### 11. Corporate Renewal
+ - Performance management
+ - The balanced scorecard concept I
+  - translates mission and strategy to targets and key indicators
+  - creates a framework, a language to communicate mission and strategy
+  - key indicators are used to inform employees about present and future success
+  - orientation of the entire organization in the direction of the long-term targets
+ - Financial dimension
+ - Market and customer dimensions
+ - Process and resource dimension
+ - Innovation and employee dimension
+ - Business Process Redesign
+    - First phase: redesigning distribution logistics
+    - Second phase: key process indicators
+ - From process orientation to the networking company I
+ - From process orientation to the networking company II
+
+### 12. Marketing
+ - The Four "Ps" of the Marketing Mix
+    - Product, Price, Promotion, Place
+    - Recruitment, Retention, Recovery
+ - Customer Lifetime Value
+
+### 13. Corporate Sustainability
+ - Motivations of Firms to Act towards Sustainability
+ - The sustainability triangle
+   - Economic: An economically suitainable system must be able to supply mankind with goods and services on a continuing basis.
+   - Social: A socially sustainable system must achieve distributional equity, adequate provision of social services including health and education, gender equality, and political accountability and participation.
+   - Ecological: An environmentally sustainable system must, among others, maintain a stable resource base, avoiding over-exploitation of renewable resource systems or environmental sink functions.
+ - 4 perspectives why corporate sustainability matters
+   - Market perspective, legal perspective, social perspective, ecological perspective
+   - motivation, threat-driven strategy, opportunity-driven strategy, main theory
+   - Corporate sustainability: some core concepts
+       - Corporate Governance
+       - Corporate Citizenship
+       - Corporate Philanthropy
+       - Corporate Social Responsibility
+       - Corporate Sustainability
+
+### 14. Quality Management & Business Excellence
+ - Insights into Practice
+    - Problems with Products: HP, GM
+    - Problems root much deeper: Products, Processes, Enterprises
+ - Mission (Purpose of the Company)
+    - Create Value for: Customers , Co-workers, Owners
+ - Vision: To build and maintain a portfolio of successful
+    - leading, profitable, technically excellent, growing
+ - Key Capabilities
+    - Strategy & Management
+    - Technology
+    - Marketing and Sales Support,
+    - Financials
+ - Basic Strategy: efficiency, effectiveity (close customer relations), innovation
+ - To lead = to reach common goals with a group of people
+ - The Entrepreneur
+    - Leader(do the right things)(vision, intuition, conviction, determination, courage) + Communicator(Make them known) + Manager(do things right)(objectives, allocation, knowledge, perseverance, organisation)
+ - Corporate Culture: competent, understandable, on time, accountable, with self confidence, learning, innovative, competent "sustainable business success"
+ - Business Excellence = Effectivity + Efficiency + Innovation + **Corp. Culture**
+    - Act, Plan, Check, Do
+ - Quality is the totality of characteristics of an entity that bears on its ability to satisfy stated and implied needs 
+ - Quality is Customer Satisfaction, quality is when the customers come back, and not the product
+ - House of Quality: Quality Function Deployment (QFD)
+ - Hierarchy of Quality
+    - Business Excellence -> Quality of Life  Q of enterprises
+    - Performance improvement integration    Q of processes
+    - Q-Management                       Q of processes
+    - Q-Assurance + Product-Q-Control     Q of performance
+ - Process Quality: Measurement of Input vs Output
+     - Highest Quality Standard: 6-Sigma
+ - Comprehensive View of Quality Cost
+    - Traditional calculation of cost of bad quality: 4-6% of revenue
+    - Actual, total cost of bad quality: 25-35% of revenue
+ - EFQM - Business Excellenc Model
+ - Business Excellence Models are the Cockpits for Entrepreneurs
+    - They help to keep on track, to take early corrective actions, to grab opportunities and to win the race
 
 > Basic Concepts
 
@@ -376,3 +474,7 @@ $ git clone
 # Vocabulary
     1. ethnography, baristas 
     7. Polaroid, Ambidexterity
+    10. blockbuster, machinist
+    11. remuneration
+    12. Assortment
+    14. cockpit 驾驶员座舱；战场, extrapolate, 外推；推断
