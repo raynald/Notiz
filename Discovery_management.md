@@ -1,9 +1,11 @@
 # Discovery Management
 
 ### 1. Entrepreneurial Management
+Starbucks is bringing "inspiration"
+Toyota reinvented "how things got made", which enabled it to build cars faster and with less labor
 There is only 
 #### 1.1 Entrepreneurial challenges
-##### 1.1.1 Innovation process
+##### 1.1.1 Innovation process are efficient organizational structures - but do not save us from lock-in
 1. Idea generation, 
 2. idea screening, 
 3. concept testing, 
@@ -14,7 +16,7 @@ There is only
 8. commercialization
 
 ##### 1.1.2 Exploration vs. Exploitation
-There is a tradeoff between modes of discovering and executing
+In the nature organizations, there is a tradeoff between modes of discovering and executing
 - **Exploration**: search, variation, risk taking, experimentation, play, flexibility, discovery, innovation; the costs of experimentaion without any of its benefits, undeveloped ideas, little distinctive competence, long-term, risky, uncertain
 - **Exploitation**: refinement, choice, production, efficiency, selection, implementation, execution, locked-in to suboptimal equilibria, can't adapt to changing circumstances, short-term, immediate, certain benefits
 
@@ -38,23 +40,23 @@ Effectuation
 - **Goal**: HRM aims at applying human resources within organizations such that people succeed and organizational performance improves.
 
 - **Effects**: 
-    HRM-practices(especially job design and selection/appraisal/training) better predict company performance than R&D, QM, strategy and technology
-    Empowerment better predicts company performance than technology-based management practices in the short- and long-term
-    HRM-practices as cause and effect of company performance
+> HRM-practices(especially job design and selection/appraisal/training) better predict company performance than R&D, QM, strategy and technology
+> Empowerment better predicts company performance than technology-based management practices in the short- and long-term
+> HRM-practices as cause and effect of company performance
 
 - **Characteristics**: 
     - Selective hiring
-        - Protopyical proceure in personnel selection: Planing, Implementation, Evaluation
+        - Protopyical procedure in personnel selection: Planing, Implementation, Evaluation
         - Validity of different selection methods: personality disposition, behavioral simulation, biographical focus
     - Extensive training
         - Personnel development: systematic furthering of personal aptitude in relation to individual expectations and organizational requirements: education/training, counselling/coaching, management by objectives, team development, job design
         - Basic assumption of personnel development:
-            Dynamic relationship between person and work: person and work change continuously, requiring also continuosu adaptation
-            Adaptation can happen from the perspective of "fit human to task" and/or "fit task to human": define possible career paths: e.g., management versus technical career; identify individual career needs: e.g., different types of career orientations
+            - Dynamic relationship between person and work: person and work change continuously, requiring also continuosu adaptation
+            - Adaptation can happen from the perspective of "fit human to task" and/or "fit task to human": define possible career paths: e.g., management versus technical career; identify individual career needs: e.g., different types of career orientations
     - Self-managed teams and decentralization
-        Teams: several people who work together over a period of time to reach common goals and who share a sense of belonging together
-        Self-regulation: individual and collective autonomy in order to coordinate work processes and to cope with process variances and uncertainties locally
-        Prerequisites for good team work
+        - Teams: several people who work together over a period of time to reach common goals and who share a sense of belonging together
+        - Self-regulation: individual and collective autonomy in order to coordinate work processes and to cope with process variances and uncertainties locally
+        - Prerequisites for good team work
             - Adequate common task 
                 - Complexity higher than individual competencies
                 - Clear performance criteria
@@ -70,19 +72,20 @@ Effectuation
                 - Support for team development (form, storm, norm, perform)
                 - Handling conflicts between individual and collective autonomy
     - Reduction of status differences
-        Changing context for leadership
-            Boundaryless, flattened, flexible, projected-based and team-based organizations that employ temporary, externalized and remote workers, whose tasks are more intellectual and less routine and cannot be controlled and coordinated by structure or direct supervision, need mechanisms and coordination through shared meaning systems and a shared sense of purpose
-        Management of uncertainty as strategic and operational leadership function
-            Balance between **minimizing uncertainty**, which creates stability, and **coping with uncertainty**, which creates flexibility
+        - Changing context for leadership
+            - How do I lead a company, how do we lead a company, how does a company lead itself?
+            - Boundaryless, flattened, flexible, projected-based and team-based organizations that employ temporary, externalized and remote workers, whose tasks are more intellectual and less routine and cannot be controlled and coordinated by structure or direct supervision, need mechanisms and coordination through shared meaning systems and a shared sense of purpose
+        - Management of uncertainty as strategic and operational leadership function
+            - Balance between **minimizing uncertainty**, which creates stability, and **coping with uncertainty**, which creates flexibility
             **Stability**: central planning, high standardization, high level of automation, little operative freedom, feedforward control
             **Flexibility**: planning as local resource, little standardization, support through technology, high degrees of freedom, feedback control
-        New issues in leadership
-            **Leadership portfolios**: in order to match different situational demands with adequate leadership behaviors, leaders must develop portfolios of styles and behaviors and understand when to use which behavior
-            **Shared leadership**: Leadership involves different tasks that can be taken on by different team members and may shift between team members.
+        - New issues in leadership
+            - **Leadership portfolios**: in order to match different situational demands with adequate leadership behaviors, leaders must develop portfolios of styles and behaviors and understand when to use which behavior
+            - **Shared leadership**: Leadership involves different tasks that can be taken on by different team members and may shift between team members.
     - High compensation contingent on organizational performance
-        Pay is: money, compensation, reward, incentive, recognition
-        Procedural and distributive justice of pay systems at least as important as absolute amount of own pay
-        Performance-related pay
+        - Pay is: money, compensation, reward, incentive, recognition
+        - Procedural and distributive justice of pay systems at least as important as absolute amount of own pay
+        - Performance-related pay
             - A part of the overal pay is determined on the basis of individual/group/company performance
             - Increasing use
                 - in the US more than in Europe
@@ -94,21 +97,20 @@ Effectuation
                 - Conflict between individual and team performance
             - Pay schemes related to organizational performance tend to avoid these problems
     - Sharing information
-        
     - Employment security
         - Employment relationship: social exchange defined by legal and psychological contracts
-            Legal contract
-            Psychological contract
+            - Legal contract
+            - Psychological contract
         - Flexible working: any time, any place, contract work, pay for performance
-            Change from a traditional to a new contract
-                Traditional contract: job security/life-long employment, internal promotion, specialization, loyalty/identification
-                New contract: flexibility/accepting insecurity, internal development, goal/performance orientation, employability/focus on own competencies
+            - Change from a traditional to a new contract
+                - Traditional contract: job security/life-long employment, internal promotion, specialization, loyalty/identification
+                - New contract: flexibility/accepting insecurity, internal development, goal/performance orientation, employability/focus on own competencies
         - Using the psychological contract to handle employment uncertainties
             - Communicate and match reciprocal expectations and offers
             - Support employability through training, job design, and systematic career management
             - Distribute risks between organization and employee according to individual coping capabilities
     
-    Beyond "rational choice": HRM-practices as expression of organizational culture
+    - Beyond *rational choice*: HRM-practices as expression of organizational culture
         - Organizational culture implies
             - Assumptions about human nature (e.g., motivation, trust versus control)
             - Images of organizations (e.g., brain, machine, family) 
@@ -116,16 +118,16 @@ Effectuation
         - These assumptions strongly influence choices of HRM practices beyond and possibly even against empirical evidence.
 
 ### 3. Financial Management and Accounting
-Learning targets
-    External accounting
+#### Learning targets
+*External accounting*
     1. Profit and loss statement: Report about the business activites results in a given period
     2. Balance sheet: Overview of the company situation regarding its assets and liabilites
     3. Financial report and cash flow statement: Statement regarding the ability to pay as well as the liquidity
-    Internal accounting
+*Internal accounting*
     4. Cost accounting: Base for decision making and monitoring of the business activities
     5. Investment accounting: Comparison between the costs and benefits of the business activities
     6. Profitability: Statement about the firm's financial results in the future
-
+*Cope with*
     7. Payback- and net-present value calculation with practical cases
 #### 3.1 The values of accounting
     - Legal
@@ -157,27 +159,28 @@ Learning targets
     out: products and services, profit/loss and growth, taxes
     in: sales/revenues
 
-#### 3.3 Proof of success
+#### 3.3 Proof of success (the external view)
 ##### 3.3.1 Profit and loss statement
     revenues - expenses = (net-) profit
     operating income, not operating income, extraordinary income
     operation expenses, not operating expenses, extraordinary expenses
 ##### 3.3.2 Balance sheet
-    assets: 
-      current assets: inventories, accounts receivable (cash)
-      fixed assets: machinery and equipment, land and buildings, financial fixed investments
-    liabilities:
-      liabilities: loan of money, credits, debts, accounts payable, taxes
-      owner equity: shares of the owner, accumulated profits, allocated provisions, reserves
+*assets*
+  - current assets: inventories, accounts receivable (cash)
+  - fixed assets: machinery and equipment, land and buildings, financial fixed investments
+*liabilities*
+  - liabilities: loan of money, credits, debts, accounts payable, taxes
+  - owner equity: shares of the owner, accumulated profits, allocated provisions, reserves
     
-    Industrial benchmarks:
+*Industrial benchmarks*
       quick ratio, current ratio, debt/ equity ratio, gearing
 ##### 3.3.3 Cash flow statement
-      in/out cash of current business activities: operating results, capital consumption, variances of provisions and working capital, interest-/tax-payments
-      in/out cash of investments: buy/sell of equipments, intangible assets, shareholdings, financial assets
-      in/out cash of financial activities: capital increase, dividends, treasury stocks
+Variances of the cash resources
+  - in/out cash of current business activities: operating results, capital consumption, variances of provisions and working capital, interest-/tax-payments
+  - in/out cash of investments: buy/sell of equipments, intangible assets, shareholdings, financial assets
+  - in/out cash of financial activities: capital increase, dividends, treasury stocks
 
-      Ratios include the entrepreneurial qualities and values
+Ratios include the entrepreneurial qualities and values
         |ratios     |Output/Input      |Base for comparisons
         |Return on equity |=Net profit/Equity   |Other investment options and risk readiness
         |Return on total assets |=Net profit/Equity+loans   |Other investment options and risk readiness
@@ -186,47 +189,54 @@ Learning targets
         |EBIT Margin    |=Earnings before interst and taxes |Ergebnis vor Finanzergebnis und vor Ertragssteuern
 
 #### 3.4 Operational cost calculation
-    - Price Positioning
-        [Graph]
-        Operational cost disposition
-            - Capacity (A)
-                - variable costs
-                - fixed costs
-            - Accountability (B)
-                - unit costs
-                - overhead costs
-            - Temporality (C)
-                - actual costs
-                - plan costs
-    - Performance Measurement
-    - Base for decision making
-    - Support for the planning
+- Price Positioning
+    Structuring of total costs or cost of production
+    Accounting within cost types
+        - Personnel costs
+        - Material costs
+        - Other cost elements
+            - energy, maintenance, taxes
+        - Costing purposes
+            - depreciation, interest, risks, entrepreneurial remuneration
+    [Graph]
+    Operational cost disposition
+        - Capacity (A)
+            - variable costs
+            - fixed costs
+        - Accountability (B)
+            - unit costs
+            - overhead costs
+        - Temporality (C)
+            - actual costs
+            - plan costs
+- Performance Measurement
+- Base for decision making
+- Support for the planning
 #### 3.5 Profitability
     gross profit margin 
     Net revenues/unit - variable costs/unit = profit margin/unit (1-6x)
 #### 3.6 Investment calculations
-    Static methods
-        - Costs comparison
-        - Profits comparison
-        - Rentability on investment
-        - Others
-    Dynamic methods
-        - Discounted cashflow
-        - Net present value
-        - Internal rate of interest 
-        - Others
-    
-    Impact of compound interest 
-    General net cashflow of an investment or project
-    Rentability on invested capital (Return on capital): assess a company's efficiency at allocating the capital under its control to profitable investments.
-        ROI = Net Income - Dividends / Total Capital
-        Rentability = revenues - costs / average captial invested * 100
-    Payback of an investment: the length of time required to recover the cost of an investment
-        PB = Cost of Project / Annual Cash Inflows
-    **Net Present Value**: The difference between the present value of cash inflows and the present value of cash outflows.
-        NPV  V = \sum_{t=1}^T \frac{C_t}{(1+r)^t} - C_0
-    **Internal rate of return**: the internal rate of return on an investment or potential investment is the annualized effective compounded return rate that can be earned on the invested capital.
-        IIR = \sum_{n=0}^N \frac{C_n}{(1+r)^n} = 0
+*Static methods* (without consideration of the money interests)
+    - Costs comparison
+    - Profits comparison
+    - Rentability on investment
+    - Others
+*Dynamic methods* (with consideration of the money interests)
+    - Discounted cashflow
+    - Net present value
+    - Internal rate of interest 
+    - Others
+Impact of compound interest 
+General net cashflow of an investment or project
+**Rentability on invested capital (Return on capital)**: assess a company's efficiency at allocating the capital under its control to profitable investments.
+ - ROI = Net Income - Dividends / Total Capital
+ - Rentability = revenues - costs / average captial invested * 100
+**Payback of an investment**: the length of time required to recover the cost of an investment
+    PB = Cost of Project / Annual Cash Inflows
+**Net Present Value**: The difference between the present value of cash inflows and the present value of cash outflows.
+    NPV  V = \sum_{t=1}^T \frac{C_t}{(1+r)^t} - C_0
+**Internal rate of return**: the internal rate of return on an investment or potential investment is the annualized effective compounded return rate that can be earned on the invested capital.
+    IIR = \sum_{n=0}^N \frac{C_n}{(1+r)^n} = 0
 
 ### 4. Introduction to Negotiation
 #### 4.1 Basic Concepts
@@ -234,17 +244,22 @@ Learning targets
     Taxonomy: [Graph]
     Distributive vs. integrative negotiation
         Distributive negotiation: competitive, one issue, win-lose approach
+        > usually involves a single issue - a "fixed-pie" - in which one person gains at the expense of the other. For example, haggling over the price of a rug in a bazaar is a distributive negotiation.
         Integrative negotiation: mutual gains, many issues, win-win approach
+        > the outcomes available are no longer a "fixed-pie" divided among all parties. An agreement can be found that is better for both parites than what they would have reached through distributive negotiation.
 ##### 4.1.2 Rationality
     1. Definition often used
-    Rational under certainty
-    Rational under uncertainty
+    Rational under certainty: completeness, transitivity
+    Rational under uncertainty: completeness, transitivity, monotonicity, continuity, independence
     2. Definition: Rational behavior 
-    Behaving rationally
+    *Behaving rationally* means
+    - the negotiaiotn _objectives_ are based on comprehensive motivations and 
+    - the _measures_ to achieve these objectives are consistent and do not violate generally acceptable conventions/customes.
     3. Our hypothesis
-    Conducted/monitored by professional persons of the negotiation party
-    Of which a couple of persons are not directly participating in the negotiation but work in a sort of "back-office" / "head-office" functions
-    Where the work culture permits an internal objective/criticla  
+    Negotiation aprties will be considered as *behaving rationally* if
+    - The negotiation is Conducted/monitored by professional persons of the negotiation party
+    - Of which a couple of persons are not directly participating in the negotiation but work in a sort of "back-office" / "head-office" functions
+    - Where the work culture permits an internal objective/criticla  
 #### 4.2 Negotiation Theories 
 ##### 4.2.1 Harvard Method
     1. People: separate the people from the problem
@@ -252,15 +267,17 @@ Learning targets
     3. Options: Invent multiple options looking for mutual gains before deciding what to do
     4. Criteria: Insist that the result are based on some objective standard
 ##### 4.2.2 Game Theory
-    * Analysis of strategic decision-making and conflict of interests among the players
-    * Result of the decision-making depends on the other players' decisions
-    * Strictly formalized by means of mathematical models
+    * Analysis of *strategic decision-making* and conflict of interests among the players
+    * Result of the decision-making depends on *the other players' decisions*
+    * Strictly formalized by means of *mathematical models*
     * Founder of the game theory: John von Neumann
 
     Prisoners' Dilemma: Pareto, Nash
 #### 4.3 Current Case
 ##### 4.3.1 Definition
-    Negotiation engineering: th application of a process by which a complex negotiatio problem is divided into sub-problems in order to make them easier solvable; and the use of scientific or other methods based on objective criteria to solve the above mentioned sub-problems
+*Negotiation engineering*
+ - the application of a process by which a complex negotiatio problem is divided into sub-problems in order to make them easier solvable; 
+ - the use of scientific or other methods based on objective criteria to solve the above mentioned sub-problems
 ##### 4.3.2 Case studies
 ##### 4.3.2.1 Iran-P5+1\*:Nuclear question
     1. Backgroud
@@ -292,29 +309,133 @@ Learning targets
         - Draft it yourself, if possible
         - Mandate should be ambitious, but reasonable/realistic so that later adaptions do not become necessary
 ##### 4.4.3 Behavioral and cultural aspects
-#### 4.5 Recommendations
-
+All in all:
+- Always gaol oriented and objective
+- Intellectually skeptical and distrustful
+- Creative
+- Polite
+#### 4.5 ETH-NECOM Recommendations
+1. Before asking for, accepting, or refusing a negotiation, make a thorough analysis. 
+2. Negotiate in good faith, create confidence, while remaining critical.
+3. Stick to a coherent linen of argumentation and stick to your engagement in the negotiation.
+4. Proceed carefully in the negotiation
+5. Demands/Counter Demands.
+6. Negotiation Engineering
+7. When there are several issues on the table, link them together.
+8. If you have a bigger interest in a negotiated solution than the other side, make proposals that solve the problem of the other side (while evidently fulfilling your own requirements).
+9. Proceed in phases.
 
 ### 5. Logistics, Operations, and Supply Chain Management
 #### 5.1 Basic Definitions, Issues, and Challenges
-    - A good is something that has an economic utility or satisfies an economic want
+    - A *good* is something that has an economic utility or satisfies an economic want
     - The noun form of an adjective with the meaning
-        - fitting in a building or human society
-        - suitable, serviceable, convenient or effective
-    - A produce is something produced as commodity or similar
-    - A product is something brought about by intellectual or physical effort
-    - An artifact is something created by humans, usually for a practical purpose
-    - Materials are the elements, consituents or substances of which something is composed or can be made. Beside raw materials, also documents, evidence, certificates or similar things may serve as materials
-    - A component
+        - formerly: fitting in a building or human society
+        - today: suitable, serviceable, convenient or effective
+    - A *produce* is something produced as commodity or similar
+    - A *product* is something brought about by intellectual or physical effort
+    - An *artifact* is something created by humans, usually for a practical purpose
+    - *Materials* are the elements, consituents or substances of which something is composed or can be made. Beside raw materials, also documents, evidence, certificates or similar things may serve as materials
+    - A *component*
         - One of several parts that together make up a whole machine
         - With regard to a product, components are goods that become part of a product during manufacturing (e.g. through installation) or arise from a product during disposal
+    - Dimensions of a Good
+        - The nature of goods
+            - Material goods are produced or traded mainly by companies in the industrial sector
+            - Goods of non-material nature, such as information, tend to be produced, compiled or traded by companies in the service industry sector.
+        - The use of goods
+            - Investment goods are utilized by the consumer mainly to develop and manufacture other goods
+            - Consumer goods are mainly intended for direct consumption.
+        - the degree of comprehensiveness of a product
+        - The product life cycle
+        - Assignment of Terms to Value-added Management
+    Three organizational units in a logistics chain
+    A *Supply Chain* is the global network to deliver products and services from raw materials to end customers through an engineered flow of information, physical goods, and cash
+    Supply chain managemtn (SCM) is the design, planning, execution, control, and monitoring of supply chain activities. 
+    SCM is applied to the comprehensive supply chain, that is, along the entire product life cycle, within and across companies.
 #### 5.2 Strategies in the Entrepreneurial Context
+    Target Area Quality: (Effectiveness)
+        - Main objective
+    Target Area Costs: (Efficiency)
+        - Main objective
+    Target Area Delivery: (Effectiveness)
+        - Main objective
+    Target Area Flexibility: (Potentials in the future / developing the business model)
+        - Main objective
+    Opportuneness and Opportunity Costs
+    - Opportuneness
+      - is the suitability of an action in a particular situation.
+    - Opportunity costs
+      - is defined as the return on capital that could have resulted, had the capital been used for some purpose other than its present use.
+    Potential for Conflicting Entrepreneurial Objectives
 #### 5.3 Performance Measuremenet
-    
+ - Logistics Performance Indicators
+   - ... analyze the effect of logistics on company objectives in the four target areas of quality, cost, delivery, and flexibility
+   - In the following, we introduce a balanced set of global measures from a logistics perspective
+     -> also requirement of balanced scorecard
+ - Practical Applicability of Performance Indicators in the Form of Practical Methods
+- Too general performance indicators
+    - Easily measurable, but
+    - Often general and qualitative in meaning
+    - No practical steps can be derived from them without making additional, non-quantitative, and implicit assumptions
+- Lack of comprehensive measurement methods
+    - Simple, applicable performance indicators often cannot be measured directly.
+- Distortion of the processes
+    - Each measurement affects the process being measured
+ - Practical Applicability of Performance Indicators in the Form of Practical Methods
+    - Meaning of the performance indicators
+        - The absolute value of a performance indicator has little meaning as such.
+    - Comparability of performance indicators
+        - Benchmarking against competitors has meaning only if the competitor has used the same measurement
+    - Practical applicability in supply chains
+        - All of the important performance indicators can be applied in the total logistics network as well as in teh individual company
+- Target area Quality
+    - Scrap factor (or yield factor)
+    - Complaint rate
+- Target area Delivery
+    - Fill rate or customer service ratio
+        - Number of products delivered on desired delivery date divided by number of products orddered
+    - Delivery reliability rate
+        - Number of products delivered on onfirmed delivery date divided by number of confirmed products
+    - Lot size (batch size)
+    - Capacity utilization
+    - Value-added rate of lead time
+    - Variance in work content
+    - Response time
+    - Order confirmation time
+- Target area Costs
+    - Stock-inventory turnover
+    - Work-in-process-inventory turnover
+    - Work center efficiency
+    - Capacity utilization
+    - Administration cost rate (such as inventory control, purchasing)
+- Target area Flexibility
+    - Bid proposal succcess rate
+    - Breadth of qualificaitons
+    - Order success rate
+    - Temporal flexibility
+ - Performance Indicators in Operations und Logistics Management - Possible Measures
+   - Target area quality
+     - Educate employees for specific tasks
+   - Target area costs
+     - Dismiss employees
+     - Reduction fo inventories (Lot size "1")
+   - Target area flexibility
+     - Educate employees for different tasks
+     - Motivate employees for a more flexible work schedule
+     - Communication in the company
+     - Group work
+   - Target area delivery 
+     - Layout change
+     - Harmonize content of work and processes
+     - Custoemr order forecasting system
+     - Decentralized storage
+     - Lot size "1"
+     - Transportation within company and trans-corporate
+        - automate
+        - by those employees producing the products
 ### 6 Risk Management
 #### 6.1 What is risk?
- - Definition of Risk: risk = uncertainty + damage
-   risk = hazard / safeguards
+ - Definition of Risk: risk = uncertainty + damage, risk = hazard / safeguards
 
  - Industrial risks
     - Change in technology, productivity, prices
@@ -336,31 +457,191 @@ Learning targets
 - Natural risks (Hailstorms, earthquakes, hurricanes, dry seasons, and other natural hazards
 - Economic and political risks
 
+*Role*
+1) asset the risks faced by the firm,
+2) communicate these risks to those who make risk-taking decisions for the firm,
+3) manage and monitor those risks to make sure that the firm only bears the risks its management and board of directors want it to bear.
+    (i) A firm specifies a risk measure that it focuses on together with additional risk metrics.
+    (ii) When that risk measure exceeds the firm's tolerance for risk, risk is reduced.
+    (iii) Alternatively, when the risk measure is too low for the firm's risk tolerance, the firm increases its risk.
 #### 6.2 Principles of management
+Strategic Objectivs -> Risk Assessment (identification, description, estimation) -> Risk Reporting -> Risk Treatment -> Monitoring
 #### 6.3 Power law risks
+Much Risk lies in false assumptions
+Normal distribution has characteristic scale
+Probability density functions
+**Power laws and large risks**
+ > Power laws are ubiquitous
+ > They express scale invariance
+ > Probability of large excursion
+   - example of height vs wealth
+ > Gaussian approach inappropriate: underestimation of the real risks
+   - Markowitz mean-variance protfolio
+   - Black-Scholes option pricing and hedging
+   - Asset valuation (CAPM, APT, factor models)
+   - Financial crashes
+Take Home
+  Failures can usually be associated with the progressive maturation of a complex system maturing progressively towards an instability (multiple entangled causes interacting with positive feedbacks).
+  System of testing and validation designed to catch such problems
+    - Catastrophes occur when this system fails
+  In most cases, it takes a failure of both engineering practice and of management 
+  Reliable entrepreneurship and management depends not on developing flawless processes but on how good we are at:
+    - Communication (sharing information between teams)
+    - Management (of Resources and Risk)
+    - Verification and Validation
+    - Risk Identification and tracking
+    - Questioning assumptions
+The boiling frog story
+    The delayed response problem
+    Crises often result from a progressive maturation towards an instability (bifurcation)
 #### 6.4 Creep concept and advanced diagnostics
+Signs of Upcoming transitions
+ - Slower recovery from perturbations
+ - Increasing (or decreasing) autocorrelation
+ - Increasing (or decreasing) cross-correlation with external driving
+ - Increasing variance
+ - Flickering and stochastic resonance
+ - Increased spatial coherence
+ - Degree of endogeneity/reflexivity
+ - Super-exponential growth with positive feedbacks
+Humanity in the Anthropocene
 #### 6.5 Risk Management failtures
-
+Six types of RM failture
+1. Mismeasurement of known risks
+2. Failure to use appropriate risk metrics
+3. Failure to take risks into account
+4. Failure in communicating the risks to top management
+5. Failure in monitoring risks
+6. Failure in managing risks
+Examples: 
+ - Shuttle Flight 51-L(Challenger) 1986
+   - Technical cause
+   - Factors
+ - Ariane-5 flight 501 1996
+ - Space Shuttle Columbia disaster 2003
+ - Deepwater Horizon oil spill
+  
 ### 7. Technology and Innovation Management
 A Bug's Life: Three challenges: the leaf as an obstacle, there is a gap in the production line, failure in the harvesting machine - hit the princess
 #### 7.1 Exploitation and exploration
  - Exploitation: Refinement, production, efficiency, implementation
  - Exploration: Variation, risk taking, experimentation, play, flexibility 
 
-### 8. Business and Macroeconomics
- - Macroeconomics
-    GDP: Consumption, Investment, Goverment Purchases, Net Exports (exports minus imports)
- - Economic forecast
+Polaroid, and digital imaging
+Ambidexterity
+Ecosystems challenges on innovators
+Strategizing in an ecosystem
+ - Innovative strategy
+    Set performance expectations and determine target market
+ - Assess _interdependence risk_ of coordinating with complementary innovators
+ - Assess _initiative risk_ of managing the local project
+ - Assess _integration risk_ of having the solution adopted across the value chain
+ - Modify performance expectations
+Michelin's PAX System
+Strategizing in a the PAX ecosystem
+Example: Digital Film
+Assessing coinnovation risk
 
+### 8. Business and Macroeconomics
+#### 8.1 Macroeconomics
+ - We want to understand the economic environment in which businesses operate
+    - Macroeconomics develops theoretical models that help to explain how the key economic variables in the economy are determined 
+    - Macroeconomics answers questions like the following
+       - Why is average income high in some countries and low in others?
+        - the role of institutions and government policy
+       - Why do prices rise rapidly in some time periods while they are more stable in others?
+        - the role of monetary policy
+       - Why do production and employment expand in some years and contract in others?
+        - the role of monetary and fiscal policy
+ - GDP(Y): Consumption(C), Investment(I), Goverment Purchases(G), Net Exports(NX=X-M) (exports minus imports)
+   - Y = C + I + G + NX
+       = C^dom + C^for + I^dom + I^for + G^dom + G^for + X - (C^for + I^for + G^for)
+       = C^dom + I^dom + G^dom + X
+ - Economic forecast
+#### 8.2 Forecasting methods
+ - Short-Run Economic Developments
+   - Economic activity fluctuates form year to year
+     - In most years production of goods and services rises
+     - In some years normal growth does not occur, causing a recession
+   - Economic fluctuations are irregular and difficult to predict
+     - Fluctuations in the economy are often called the business cycle
+   - Most macroeconomic variables fluctuate together
+     - Most macroeconomic variables that measure some type of income or production fluctuate closely together
+     - Although many macroeconomic variables fluctuate together, they fluctuate by different amounts
+   - As output falls, unemployment rises
+     - Changes in real GDP are inversely related to changes in the unemployment rate
+     - During times of recession, unemployment rises substantially
+Different definitions of business cycles
+ - Business cycles are recurrent sequences of alternating phases of expansion and contraction in economic activity
+ - The name `business cycle' has some ambiguity, since it can refer to conceptually different economic fluctuation
+  - Classical cycle
+    - Fluctuations in the level of the economic activity
+  - Growth cycle
+    - Fluctuations in the economic activity around the long-run potential level
+  - Growth rate cycle
+    - Fluctuations of the growth rate of economic activity
+
+ - Indicator approach
+   - Business tendency surveys
+   - Buildings permits
+   - Job advertisements
+ - Econometric approaches
+   - Time series econometrics
+   - Structural economdetric models
+#### 8.3 Economic forecast
+   [Graph]
 ### 9. Introduction to Strategic Management
- - A brief history of the strategy field
- - Strategic management process
- - Competitive strategy
+ What is Strategy and Strategic Management?
+ - Whether a firm achieves competitive advantage is a function of a complex mix of factors internal and external to the firm, and the strategic choices taken by decision makers (e.g. TMT, CEO)
+ - *The Strategy Process*: A set of analyses and choices that increase the likelihood of developing a strategy that generates a competitive advantage
+
+ Why is strategy important?
+ Industry vs. Firm Effects in Performance
+#### 9.1 A brief history of the strategy field
+ - Managers need strategy in order to position their firms relative to its competitors
+ - Strategy has often been reveals after the fact - by looking at successful and unsuccessful strategic moves by firms
+ - The strategy discipline (practioners, consultants, academics) have sought to find ``rules of conduct'' that can predict successful strategic moves
+ - Strategy research is based on statistical analysis of many firms, and single cases of successful and less successful firms
+ 1950's Phase I Financial planning (Functional control) -> 1960's Phase II Long range planning (Planning for growth Resource allocation) -> 1970's Phase III Strategic planning (Response to markets, Alternative strategies) -> 1980's Phase IV Strategic Management (Strategic processes, Competitive positioning) -> 1990's Phase V Quest for Strat Advantage (Capabilities, Resources) -> 2000's Phase V New Economy (Business Models, Disruptive technologies)
+
+ Several forces push towards a rethinking of strategic management
+    - Structural change
+    - Deregulation
+    - Scarcity of expertise
+    - Mergers transforming industries
+    - Environmental concerns
+    - New industry substitutes
+    - Rapidly changing customer expectations
+    - Rate of innovations
+    - Increased entrepreneurial activity
+    - Global competition
+  -> Pressure for radical rethinking
+ Development in the discipline
+  - Knowledge and technology
+  - Processes and routines
+  - History and path-dependence
+  - Cooperation and networks
+
+  - Resource-based history
+  - Knowledge-based view
+  - Capabilities-based view
+  - Entrepreneurial view
+#### 9.2 Strategic management process
+  - How does strategy come about?
+    - Strategic Planning
+    - Scenario Planning
+    - Str. as Planned Emergence
+  - Top-down rational planning
+    - Define mission, vision & goal (strategic intent)
+    - External analysis of opportunities and threats
+    - Internal analysis of strengths and weaknesses
+
+#### 9.3 Competitive strategy
     Creating and maintaining a competitive advantage in each and every area of business
     Industry structure determines the profitability
-   - Cost leadership
+#### 9.4 Cost leadership
    - Differentiation
- - Product differentiation
+#### 9.5 Product differentiation
 
 ### 10. Information Management
  - CEO CIO, leveraging IT, managing IT
@@ -460,21 +741,32 @@ A Bug's Life: Three challenges: the leaf as an obstacle, there is a gap in the p
     - Traditional calculation of cost of bad quality: 4-6% of revenue
     - Actual, total cost of bad quality: 25-35% of revenue
  - EFQM - Business Excellenc Model
+ - The Hilti Business Excellence Model
+ - Balanced Score Card
  - Business Excellence Models are the Cockpits for Entrepreneurs
     - They help to keep on track, to take early corrective actions, to grab opportunities and to win the race
 
-> Basic Concepts
-
-
-```sh
-$ git clone
-```
-* plugin/dropbox/read.md
+### Case
+#### 1. Airline industry is locked in supply-demand cycle
+#### 2. HRM
+- Compare Pfeffer and Veiga's (1999) seven HRM characteristics with what you have learned about talent management at SWISS.
+    - Where do you see parallels and differences?
+    - How can the HR elements proposed by Pfeffer and Veiga (1999) help in promoting effective talent management at SWISS?
+#### 3. Finance
+#### 4. Cargo
+#### 5. Strategy
+#### 6. Marketing
 
 # Vocabulary
-    1. ethnography, baristas 
-    7. Polaroid, Ambidexterity
-    10. blockbuster, machinist
-    11. remuneration
-    12. Assortment
-    14. cockpit 驾驶员座舱；战场, extrapolate, 外推；推断
+EBIT: earnings before interest and taxes
+1. ethnography , baristas 咖啡师
+6. rupture 破裂；决裂；疝气, flare 闪光, perturbation 摄动；不安
+7. Polaroid, Ambidexterity
+10. blockbuster, machinist
+11. remuneration
+12. Assortment
+14. cockpit 驾驶员座舱；战场, extrapolate, 外推；推断
+> SWISS
+1. fleet 舰队, pulverize粉碎，彻底打败
+
+
