@@ -635,78 +635,276 @@ Different definitions of business cycles
     - Define mission, vision & goal (strategic intent)
     - External analysis of opportunities and threats
     - Internal analysis of strengths and weaknesses
-
 #### 9.3 Competitive strategy
     Creating and maintaining a competitive advantage in each and every area of business
     Industry structure determines the profitability
-#### 9.4 Cost leadership
-   - Differentiation
-#### 9.5 Product differentiation
+        Soft Drinks, Software, Pharmaceuticals
+    The five-forces model
+      - Suppliees, Potential new entrants, Buyers, Substitutes, Industry competitors
+ - *Cost leadership*
+    A company prices around the market average, and enjoys superior profits because its costs are lower than those of its rivals
+    Sources:  - Size differences and economies of scale
+              - Experience differences learning-economies
+              - Differential low-cost access to factors of production
+              - Technological advantage independent of scale
+              - Policy choices
+ - *Differentiation*
+    A company adds value in areas of significance for the customer, who then accepts a premium price for distinctiveness of products and services
+    Sources:  - Product features
+              - Linkages between functions and complexity
+              - Timing
+              - Location and presence
+              - Product mix
+              - Links with other firms
+              - Reputation
+Four levels of competitive advantage
+ - Competitive disadvantage: The firm is implementing a value-destroying strategy leading to cost-disadvantage or a product that does not satisfy customer needs.
+ - Competitive party: The firm and its competitors are implementing the same value-creating strategies leading to cost-advantages and/or differentiation advantages.
+ - Sustainable competitive advantage: A firm is alone in implementing a value-creating strategy leading to cost and/or differentiation advantages. Competitors are unable to duplicate the benefits of this strategy.
+
+ Profitability ratios in strategy
+ > Return on total assets (ROA)
+ > Return on equity (ROE)
+ > Gross profit margin
+ > Earnings per share (EPS)
+ > Price-earning ratio
+ > Cash flow per share
 
 ### 10. Information Management
- - CEO CIO, leveraging IT, managing IT
+ - CEO leveraging IT, CIO managing IT
+ - Business Model Innovation and its Predecessors
  - Google Trend Check
     - Product Innovation
     - Process Innovation
     - Business Model Innovation
+ - BM describes how a company creates, captures, and delivers value
+    - Articulates the _value proposition_
+    - Identifies a _market segment_ and specify the revenue generation mechanism
+    - Details the _revenue mechanism_ by which the firm will be paid for the offering
+    - Defines the structure of the _value chain_ required to create and distribute the offering and complementary assets needed to support position in the chain
+    - Estimates the _cost structure_ and profit potential (given value proposition and value chain structure)
+    - Describes the _position_ of the firm _within the value network_ linking suppliers and customers
+    - Formulates the _competitive strategy_ by which the innovating firm will gain and hold advantage over rivals
  - Business Model Definition - The Magic Triangle
     - Value Proposition
     - Revenue Model
     - Value Chain
+    - What? What do you offer to the customer
+    - How? How is the value proposition created?
+    - How? How is revenue created?
+    - Who? Who is your target customer (segment)?
  - It plays an important role in BMI
- - E-commerce, Two-sided market, Hidden Revenue, Affiliation, Long Tail, Peer to peer, Freemium, Leverage Customer Data, Open source
+ - Web 1.0 E-commerce, Two-sided market, Hidden Revenue, Affiliation, Long Tail, Peer to peer, Freemium, Leverage Customer Data, Open source
+ - Web 2.0 User Designed, Crowdsourcing, Crowdfunding, Subscription (SaaS, Media as a Service), Open Source (Content)
+ - Web 3.0 ..
+ General IT-Triggered Trends Across IT-enabled BMP. Which features did IT enable in many of the BMP?
+   1. Integration of users / customers
+   2. Run time services / digital contact to customer after sales
+   3. Analytics of user and other data evolves to a core competency
  - Definition of Information Management 
+    - "Information Management" is the cognition and conversion of the potentials of ICT
+    - "Information Management" is the cognition, conversion _and operation_ of the potentials of ICT
  - The role of IT in the company
+   - *necessary evil*
+   - *support, no partner*
+   - *IT is everything*
+   - *business units are better in IT*
+   - *equal partners*
  - Challenge 1: Legacy Systems
+   - They must be compatible with modern systems
  - Challenge 2: Interfaces (with legacy systems)
+   - The number of interfaces can be a challenge 
  - Challenge 3: The Dominance of Operations
  - Challenge 4: Shadow or "Iceberg" IT
  - Challenge 5: Cost cutting(efficiency) vs. Innovation(effectiveness)
  - Challenge 6: Information management is made by human beings for human beings
  - Challenge 7: ICT breakdown
- IT Governance: specifying the decision rights and accountability framework to encourage desirable behavior in the use of IT.
- IT Infrastructure Library (ITIL)
- Control Objectives for Information and Related Technology (CobiT)
+ - Challenge 8: Inapacity of Abstraction
+   - Abstract thinking is essential for understanding complex information systems
+ - IT Governance: specifying the decision rights and accountability framework to encourage desirable behavior in the use of IT.
+ - IT Infrastructure Library (ITIL)
+   - *best_practices*
+   - International de-facto standard for IT service providers
+ - Control Objectives for Information and Related Technology (CobiT)
+   - Controlling instrument to measure the quality of IT management
+   - Focus on control objectives
 
 ### 11. Corporate Renewal
+#### 11.1 Strategic Management Process
  - Performance management
+    Key problems:
+    - Measurement systems are too complicated and too differentiated
+    - Most of the key indicators look into the past and are not suited to predict the future
+    - Most of the key indicators report financial aspects. Non-monetary issues are not addressed
  - The balanced scorecard concept I
-  - translates mission and strategy to targets and key indicators
-  - creates a framework, a language to communicate mission and strategy
-  - key indicators are used to inform employees about present and future success
-  - orientation of the entire organization in the direction of the long-term targets
+   - translates mission and strategy to targets and key indicators
+   - creates a framework, a language to communicate mission and strategy
+   - key indicators are used to inform employees about present and future success
+   - orientation of the entire organization in the direction of the long-term targets
+ - The balanced scorecard collects key figures from the following areas
+   - _Financial dimension_: classic key financial figures, particularly for shareholders
+   - _Market and customer dimensions_: form the customer opinion and customer attitude towards the company
+   - _Process and resource dimension_: describe how well or how poorly internal processes function in terms of time, quality, costs
+   - _Innovation and employee dimension_: describe to what extent the company is focused on future developments and to what extent it influences employees and their commitment
+ - Review of the enterprise's strategic position
+   - The change curve
+     [Graph]
+   - |   |Anticipatory |Reactive |Crisit
+     |Strategic
+     |Organizational
+     | Leadership
+- Introduction
+   - Optimization in the company (see business model) vs. fundamental change in the company
+   - Scope of fundamental change
+     (the company's overall embedment in the environment, value creation, type and manner of value creation). 
+   - Far-reaching changes in the strategic emphasis - value proposition / defendable competitive advantage
+   - The influence also on organizational identify / values: core purpose and values
+   - The example of SIG
+     (from weapons/railway cars to packaging machines).
+   - Renewal means strategic shift:
+     - Strategic repositioning
+     - Business process redesign (BRP)
+     - Venture creation (business creation)
+ - Change management as prerequisite
+   - Change management process of great importance
+     1. Establish a sense of urgency
+     2. Form a powerful guiding coalition
+     3. Create a vision
+     4. Communicate the vision
+     5. Empowering others to act on the vision
+     6. Planning for and creating short-term wins
+     7. Consolidating improvements and producing mroe change
+     8. Institutionalizing new approaches
+#### 11.2 Forms of Renewal
+ - Strategic repositioning I
+   - A company must havge clear positioning, defendable competitive advantages
+     - Differentiation to competition is decisive 
+     - Where do I play
+   - Selection between 1-to-2 strategic emphases such as:
+     - Cost leadership
+     - Price leadership
+     - Innovation leadership
+     - Quality leadership
+   - Strategic repositioning means changing strategic emphases
+     - The technology basis used
+     - The target price level
+     - Backwards-/forwards integration
+     - Including customers and suppliers into service innovations
+     - Outsourcing or insourcing services
+     - Shifting communication forms and channels
+     - Changing distribution channels and forms
  - Financial dimension
  - Market and customer dimensions
  - Process and resource dimension
  - Innovation and employee dimension
  - Business Process Redesign
+    - Information technology as an "enabler" of innovations
+      - BPR combines the fundamental changes of a company, from function oriented ot process oriented, with the creation of innovative processes on the basis of new information technology.
+      - Internal less external process innovatiosn
     - First phase: redesigning distribution logistics
+      - Through the use of operational information-processing systems, integrated information systems make it possible to optimize individual tayloristic corporate functions: e.g., finance processes, porduction planning and managing systems, sales systems
+      - Efficiency in the individual processes is high but the processes are isolated from one another
+         -> Function-oriented management and remuneration models
     - Second phase: key process indicators
- - From process orientation to the networking company I
- - From process orientation to the networking company II
-
+      - The efficient coordination of all processes, as opposed to the efficiency of the individual processes, is decisive
+      - The basis to achieve this is the company-wide integration of an Enterprise Resource Planning System (ERP System) such as SAP R/3
+      - Process orientation vs. function orientation
+ - From function orientaion to process orientation III
+   - The most significant characeristics of innovatino through BPR:
+     - Effectiveness has priority over efficiency - key question: Are we producing the right products and services? Satisfying customer needs is the focus.
+     - BPR is more than optimization. Begin with a "green field initiative" - process vision. Then further develop the given facts into a realistic, desired process environment, then deploy and practice continuous improvement
+   - Process orientation requires process leadership. The process manager is responsible for the entire process
+   - Key process indicators as controlling parameters, and a remuneration system that is based on these controlling parameters
+ - From function orientaion to process orientation IV
+   - People are at the center
+   - Routines, privileges, power that employees have established and built up over years are questioned
+   - Change management is a decisive factor for success/ failure
+ Business process redesign (BPR)
+   - From process orientation to the networking company I
+     - From the integration of internal process to the coordination of inter-company processes
+     - Internet as a central information network that spans all units/ departments
+     - Big changes required to move from a process to a network company
+       - Suppliers must be partners and not "opponents"
+       - The example of Zara
+   - From process orientation to the networking company II
+     - The most important characteristics of innovation through networking are
+       - Reciprocal uses as the central model of thought: win-win situation
+       - People initiate and conclude networks: trust is essential
+       - Integration and standards are technical prerequisites
 ### 12. Marketing
+ - Foundations
+    (Why) do firms need Marketing/ Marketing Research?
+      - Marketing is too important to be left to the marketing department.
+      - Marketing takes a day to learn. Unfortunately it takes a lifetime to master.
+      - If I'd asked people what they wanted, they would have asked for a fast horse
+      - It's not the customer's job to know what they want
+    - Often misunderstood: customer orientation does not necessarily mean that companies do exactly what (single) customers want and/or say
+      - Primary marketing research in the form of customer surveys is only one form of marketing research that is typically used for minor adaptions or improvements in customer service
+      - Organizations that believe they have to agree with everything that the customers say will often fail
+    - Nevertheless, successful innovation always addresses (often latent) customer needs, although customers are often not able to articulate what they need
+      - Need for marketing research that discovers latent needs (from qualitative methods to large databases)
+    Example: Segway
+    Questions incorrect
+    Conclusion: Marketing is fundamentally concerned with the firms' relationships to customers
+      - The customers' needs and wishes are THE driving force not only behind marketing, but also behind the firm in general!
+      - Meeting customer wants and needs better than the competition is a firms' most critical success factor, and a central marketing task!
+      - All areas of the firm, especially its leadership, need to "live and think marketing"
+      - For solving managerial questions, it is essential to acquire and extend marketing knowledge and marketing information
+    Marketing as Exchange
+      Buyer, Seller
+    Why should the entire organization be involved in marketing
+      Marketing as a Leadership Philosophy
+      The marketing Orientation
+      - Assumption: Achieving organizational goals depends on determining the needs and wants of target markets and delivering the desired products, services and solutions more effectively and efficiently than competitors do
+      - There are good reasons to believe that in free market-based economies, market(ing) orientation is superior to alternative orientations
  - The Four "Ps" of the Marketing Mix
     - Product, Price, Promotion, Place
+ - The Three "Rs" Relationship Management
+     Relationship Management: The process of creating, maintaining, and enhancing strong relationships with customers and other stakeholders
     - Recruitment, Retention, Recovery
- - Customer Lifetime Value
+    - Relationship Management Baasis
+        Customer Lifetime Value (formula)
 
 ### 13. Corporate Sustainability
- - Motivations of Firms to Act towards Sustainability
+#### 13.1 Motivations of Firms to Act towards Sustainability
  - The sustainability triangle
-   - Economic: An economically suitainable system must be able to supply mankind with goods and services on a continuing basis.
-   - Social: A socially sustainable system must achieve distributional equity, adequate provision of social services including health and education, gender equality, and political accountability and participation.
-   - Ecological: An environmentally sustainable system must, among others, maintain a stable resource base, avoiding over-exploitation of renewable resource systems or environmental sink functions.
+   - **Economic**: An *economically* suitainable system must be able to supply mankind with goods and services on a continuing basis.
+   - **Social**: A *socially* sustainable system must achieve distributional equity, adequate provision of social services including health and education, gender equality, and political accountability and participation.
+   - **Ecological**: An *environmentally* sustainable system must, among others, maintain a stable resource base, avoiding over-exploitation of renewable resource systems or environmental sink functions.
+
+    Depletion of natural resources
+      - Humanity's ecological footprint is over 50% larger than what the planet can regenerate
+      - Business as usual might reduce quality of life of future generations
+    Emissions
+      - Man-made greenhouse gas emissions lead to global climate change
+      - Climate change connected with enormous environmental and social implications (e.g., floodings, droughts), especially in poor countries
+    Social inequality
+      - Income inequality in almost all countries in on the rise
+      - Countries build wealth on debts at the expense of future generations
  - 4 perspectives why corporate sustainability matters
    - Market perspective, legal perspective, social perspective, ecological perspective
    - motivation, threat-driven strategy, opportunity-driven strategy, main theory
+    Example: British Petroleum, Tesla Motors, Pacific Gas & Electric, Vattenfall Europe, Fishery
+#### 13.2 Central Concepts in the Context of Corporate Sustainability
    - Corporate sustainability: some core concepts
-       - Corporate Governance
-       - Corporate Citizenship
-       - Corporate Philanthropy
-       - Corporate Social Responsibility
-       - Corporate Sustainability
-
+       - Corporate Governance: *organizational and structural aspects of companies*
+       - Corporate Citizenship: *protection and support of social,civil and political rights*
+       - Corporate Philanthropy: *initiatives outside the direct business*
+       - Corporate Social Responsibility: *on a voluntary basis within core business activities*
+       - Corporate Sustainability: *corporate strategies built around social and environmental considerations*
+    Corporate Environmental Evolutionary Path
+    Pollution Denial -(obligation)-> End-of-pipe regulation -(opportunity)-> greening -(reorientation)-> beyond greening 
+#### 13.3 Management of Corporate Sustainability
+    Sustainability touches upon all corporate primary and support activities
+    [Graph]
+#### 13.4 Deep-Dive: Sustainable Technology and Innovation Management
+    Operational management of technology & innovation
+    Strategic management of technology & innovation
+    Invention, development of a new idea that has useful applications
+    Innovation, the successful introduction of an invention into the market
+    Diffusion, the spreading of an innovation in the market
+    Disruptive innovation
+        performance of the standard product exceeds the market demand
 ### 14. Quality Management & Business Excellence
  - Insights into Practice
     - Problems with Products: HP, GM
@@ -755,6 +953,7 @@ Different definitions of business cycles
 #### 3. Finance
 #### 4. Cargo
 #### 5. Strategy
+    SWISS vs. Easyjet
 #### 6. Marketing
 
 # Vocabulary
