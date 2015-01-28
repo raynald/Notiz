@@ -6,6 +6,9 @@
     - Volume: Web data, Sensor data, Proprietary data, Scientific data
     - Velocity: Real-time data
     - Variety: Heterogeneity and Noise
+ - Data Analytics
+    - Human Data Analytics
+    - Machine Data Analytics
 #### 1.2 Big Data in the Sciences 
  - High Energy + Big Data = New Knowledge
  - Sloan Digital Sky Survey
@@ -13,6 +16,7 @@
 #### 1.3 Big Data in the New Economy
  - Google Web Search
  - Prediction of Relevance
+    - FB, Amazon, Youtube, Netflix, Web Marketing
 #### 1.4 Big Data in the "Good Old" Economy
  - Traffic Networks
 #### 1.5 Intelligent Systems
@@ -26,9 +30,9 @@
  - Traditional database systems
  - ACID: Atomicity, Consistency, Isolation, Durability
  - Normalization
-   - First normal form
-   - Second normal form
-   - Third normal form
+   - First normal form: remove duplicate data and break data at granular
+   - Second normal form: All column data should depend on full primary key and not part
+   - Third normal form: No column should depend on other columns
 #### 2.2 OLAP
  - OLTP: consistent and reliable record keeping 
  - OLAP: analytical processing -> data-based decision support
@@ -45,29 +49,55 @@
  ROLAP = relational OLAP
  MOLAP = multidimensional OLAP
 
- Star Schema
+> Star Schema
   - Fact table: a very very
   - Measures
   - Dimension tables
+> Snowflake Schema
+  - De-normalizing dimension tables not always feasible/optimal
+  - Tradeoff: more compactness/less redundancy vs. higher costs of joining
+  - Alternative: normalize dimension tables, introduce additional tables
 
 #### 2.6 Data Cubes
  MOLAP and Data Cubes
 #### 2.7 OLAP Servers
+##### Inex Structures
+> Bitmap indices
+ - AND, OR, SUM
+> Join indices
+##### Materialized Views
+##### Server Architectures
+> Specialized SQL Servers
+> ROLAP Servers
+> MOLAP Servers
+##### SQL Extensions 
+> Extended aggregate functions
+> Reporting features
+> Multiple Group-By
 #### 2.8 Conclusion
-#### 
+##### Pros
+> Data Warehousing
+> Key aspect
+> Natural when data lives in OLTP database already
+> Data integration across department or entire organization
+##### Cons
+> Raw "Big Data" often comes in real-time streams
+> What data matters and which ones not it not known beforehand
+> Need support for experimentation over the raw data
+> Machine Data Analytics: different requirements than OLAP
 
 ### 3. Storage
 #### 3.1 File Systems
 ##### 3.1.1 Google File System
-    Raw Data
-    Derived Data: operations on raw data
-    GFS: characterstics for data-intense computation
-    File Systems for Big Data
-        Fault tolerance and robustness
-        Big files
-        Append write
-        Semantics and primitives
-        Performance
+> Raw Data
+> Derived Data: operations on raw data
+> GFS: characterstics for data-intense computation
+> File Systems for Big Data
+    Fault tolerance and robustness
+    Big files
+    Append write
+    Semantics and primitives
+    Performance
     GFS and HDFS
     GFS Architecture
         cluster, master, chunservers
@@ -81,7 +111,7 @@
 ##### 3.1.2 Metadata Management
     Master Metadata and Policies
         Master: manages three tyeps of metadata
-            names of files, mapping from files to chunks, chunk locations
+            1. names of files, 2. mapping from files to chunks, 3. chunk locations
         Locks
     Master Tasks
         data replication
@@ -96,6 +126,12 @@
     NameNode = master, DataNode = Chunkserver, Data blocks = chunks
     Missing concurrent appends
     HDFS, Replica Placement
+     > Issues to consider: reliability, read/write bandwidth, block distribution
+     > Hadoop's default strategy for replica placement
+       > 1st: on client node (or randomly chosen if client outside cluster)
+       > 2nd: random, off-rack
+       > 3rd: same rack as second, different node
+       > more replicas: randomly chosen
     Tools for Ingesting Data into HDFS
         Apache Flume
         Apache Sqoop
@@ -106,22 +142,39 @@
     Routing with Finger Tables
     Pros
      - Highly scalable
+       - automatically distributes load to new nodes
      - Robust against node failure
+       - data automatically migrated away from failed nodes
      - Self organizing
+       - no need for a central server
     Cons
      - Lookup, no search
+       - hashing does not preserve namesapce topology
      - Data integrity
+       - hard to verify
      - Security problems (P2P)
 ##### 3.2.2 Weak Consistency
-     High Level Perspective: Strong consistency, weak consistency, eventual consistency
+     Idea consistency: when an update is made, all observers see that update
+     High Level Perspective: 
+        Strong consistency, 
+          - An updates data object -> all subsequent access will return this value
+        Weak consistency  
+          - Some conditions need to be met, before updated value is returned
+          - Temporal inconsistency window
+        Eventual consistency
+          - Special form of weak consistency
+          - Maximum size of inconsistency window can be determined
      Client-side View: Causal consistency, read-your-writes consistency, session consistency, monotonic read consistency, monotonic write consistency
      Server-side View
         Key design parameters
             W + R > N, strong consistency
             W + R <=N, weak consistency
         Stickiness of sessions
-##### 3.2.3 Dynamo
+##### 3.2.3 Dynamo: Highly Available Key-Value Store
      Motivation: shopping carts 
+       > "write always"
+       > available across multiple data centers
+     High availability -> weak consistency 
      Service-Oriented Architecture
      Design Considerations & Principles
      Dynamo's DHT
@@ -220,6 +273,7 @@
         Shark
 #### 3.6 Conclution
     GFS, Dynamo, BigTable, Spanner
+
 ### 5. Big Computing
 #### 5.1 High Performance Computing
 ##### 5.1.1 Moore's Law
@@ -232,7 +286,7 @@
 Type of parallelism
     Single Instruction, Multiple Instruction
     Single DAta, Multiple Data
-    SISD, MISD, SIMD, MIMD
+    "old school" classification: SISD, MISD, SIMD, MIMD
 Data Parallelism: splitting up the data
     Single Program Multiple Data
 Task Parallelism: parallelizing the algorithm
@@ -314,6 +368,7 @@ Limits of Parallel Computing
     Motivation & Overview
         RDDs: parallel data structures
     Alternating Least Square
+
 ### 8 Computing with Data Streams
 #### 8.1 Introduction & Motivation
 ##### 8.1.1 Streaming Data Paradigm
@@ -395,6 +450,7 @@ Limits of Parallel Computing
     Entailment (and Syllogisms)
 
 # Vocabulary
+    1. Gyroscope 陀螺仪, barometer 气压计；睛雨表
     3. Motto 座右铭，格言, observatory 天文台, stale 陈腐的, rack, quorum, in-situ 原位
     5. granularity 间隔尺寸, straddlers, brittle 易碎的，脆弱的
 
