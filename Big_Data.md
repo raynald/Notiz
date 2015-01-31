@@ -45,43 +45,77 @@
  *We are interested in data history, a snapshot of the ongoing business process is not enough*
 #### 2.3 Data Warehouse
  - Data warehouse: is a separate database that copies, integrates, and aggregates data from one or more master OLTP databases in order to support OLAP. is a subject-oriented, integrated, time-variant, and nonvolatile collection of data in support of management's decision-making process. - W. H. Inmon
+ - Non-Volatile: physically separate store of transformed data, separated from operational system
+ - Why materialize in advance: scattered across many dabases, consilidation is easier via re-materialization, central access across all databases not available
+ Non-technical Challenges: semantics
+ Mini-warehouses: Data marts
+ Metadata Management
+    Metadata: defines warehouse objects
+       structure of datawarehouse, schema, view, dimensions 
+       data mart locaitons
+    Operational meta-data
+        data lineage
+        monitoring information
 #### 2.4 ETL: Extract, Transform, Load
- - Extract
- - Transform
+ - Extract: converting data from source systems to consolidated data format
+       OLTP: triggers
+       Information builders: Oracle Open Connect, Sybase Enterprise Connect...
+       **Incremental updates** via replication servers
+ - Transform 
+        applying business rules
+        replace string gender by "sex"
+        data cleaning and validation
  - Load
+        Checking integrity
+        Bulding indices
+        loading the data to data warehouse
+  ETL vs. modern Big Data
+     collides: speed, philosophy, copying
 #### 2.5 OLAP via ROLAP
- ROLAP = relational OLAP
- MOLAP = multidimensional OLAP
+ ROLAP = relational OLAP, support star/snowflake schemas
+ MOLAP = multidimensional OLAP, data cube
 
 > Star Schema
-  - Fact table: a very very
-  - Measures
-  - Dimension tables
-> Snowflake Schema
+  - Fact table: a very large accumulation of facts
+  - Measures: quantities of interest (sales, price)
+  - Dimension tables: static information about the entities involved in the facts
+> Snowflake Schema, multi-level
   - De-normalizing dimension tables not always feasible/optimal
   - Tradeoff: more compactness/less redundancy vs. higher costs of joining
   - Alternative: normalize dimension tables, introduce additional tables
 
 #### 2.6 Data Cubes
  MOLAP and Data Cubes
+ Data Cube: Marginal
+    Aggregations over multiple dimensions
+ Data Cube: Pivoting
+    Select some dimensions, then aggregate measure
+ Data Cube
+    Drill-Down: split dimension into finer detail
+    Roll-up: aggregate along one or more dimension
+    Slice & Dice: projecting data on subset of dimensions for selected values of the other dimensions
 #### 2.7 OLAP Servers
 ##### Inex Structures
 > Bitmap indices
  - AND, OR, SUM
 > Join indices
 ##### Materialized Views
+> pre-compute aggregates
 ##### Server Architectures
 > Specialized SQL Servers
+    advanced SQL support for star and snowflake schema
 > ROLAP Servers
 > MOLAP Servers
 ##### SQL Extensions 
 > Extended aggregate functions
+    rank, percentile, median
 > Reporting features
+    time window
 > Multiple Group-By
 #### 2.8 Conclusion
 ##### Pros
 > Data Warehousing
-> Key aspect
+> Key aspect: ETL into RDBMs
 > Natural when data lives in OLTP database already
 > Data integration across department or entire organization
 ##### Cons
@@ -95,37 +129,54 @@
 ##### 3.1.1 Google File System
 > Raw Data
 > Derived Data: operations on raw data
-> GFS: characterstics for data-intense computation
+> GFS. diff: characterstics for data-intense computation
 > File Systems for Big Data
     Fault tolerance and robustness
-    Big files
+    Big files, large size, large number
     Append write
     Semantics and primitives
-    Performance
+        atomicity: all occur or no occur
+        keep synchronization overhead minimum
+    Performance: bandwidth/throughput, latency and response times
     GFS and HDFS
     GFS Architecture
-        cluster, master, chunservers
+        a cluster: master, chunservers
     System Components: 
         Chunks
             basic block
             fixed size
+            immutable 64bit chunk handle
         Chunkservers
         Single Master
+            maintain metadata
+            namespace, access control information
         Client code
+            interact with master
+            linked into each application
 ##### 3.1.2 Metadata Management
     Master Metadata and Policies
         Master: manages three tyeps of metadata
             1. names of files, 2. mapping from files to chunks, 3. chunk locations
-        Locks
-    Master Tasks
-        data replication
-            data reliability, data availability, maximize bandwidth utilization
+        Locks, read lock and write lock
+    Master Tasks: deal with data replication
+            why: data reliability, data availability, maximize bandwidth utilization
+    Metadata Consistency
+        GFS2: Colossus
+            Next-generation cluster-level file system
+            automated sharded metadata layer
 ##### 3.1.3 Replication and Consistency
     Consistency Model
-        consistent, defined
+        consistent: readers see same data across replicas
+        defined: clients always see what the mutaiton writes in its entirety
+        inconsistent
+        methods: 1. same order of mutations, 2. chunk version nubmers 3. restoring lost replicas from existing ones
     Sequentializing Mutations
-        Primary chunkserver
-    Snapshoting
+        Select a primary chunkserver
+        Primary chunk server gets a lease (expiraiton, revoking)
+        Concurrent writes
+        Special support for atomic append mutations
+        Snapshoting
+            copy-on-write, master revokes all leases
 ##### 3.1.4 Hadoop File System
     NameNode = master, DataNode = Chunkserver, Data blocks = chunks
     Missing concurrent appends
@@ -143,10 +194,13 @@
             Structured, RDBS
 #### 3.2 Key-Value Stores
 ##### 3.2.1 Distributed Hash Tables
-    Consistent Hashing
-    The Chord Ring
-    Routing with Finger Tables
-        O(log k)
+    decentralized, common P2P
+    put(key, value), get(key)
+    Consistent Hashing: Chord
+        Each node is responsible for storing keys "near" its ID
+        replication at multiple successors
+    The Chord Ring: add and remove
+    Routing with Finger Tables: O(log k)
     Pros
      - Highly scalable
        - automatically distributes load to new nodes
@@ -171,27 +225,44 @@
         Eventual consistency (increasing availability)
           - Special form of weak consistency
           - Maximum size of inconsistency window can be determined
+          DNS
      Client-side View: Causal consistency, read-your-writes consistency, session consistency, monotonic read consistency, monotonic write consistency
      Server-side View
         Key design parameters
+            N: number of replica, W number of replicas need ackowledge, R number of replicas on a read access
             W + R > N, strong consistency
+                problem: < W replicas available, write fails
             W + R <=N, weak consistency
-        ?Stickiness of sessions? (support read-your-writes, session, and monotonic consistency)
+        Stickiness of sessions (support read-your-writes, session, and monotonic consistency)
             - clients are guaranteed to talk to same server -> easy to guarantee
             - slight disadvantages for load balancing and fault tolerance
         Network Partitions
+            - requirements: partitions remain available
             - implement a merging scheme after partitions have healed
 ##### 3.2.3 Dynamo: Highly Available Key-Value Store
      Motivation: shopping carts 
        > "write always"
        > available across multiple data centers
+     Decentralized, loosly-coupled, service-oriented system
      High availability -> weak consistency 
-     Service-Oriented Architecture
-     Design Considerations & Principles
+     Key-value store
+        Read and write access via primary key (only)
+        Store values as binary objects = "blobs"
+        No need for data schemas and RDBMS
+     Amazon's Service-Oriented Architecture
+     Dynamo: Design Considerations & Principles
+        incremental scalability
+        symmmetry and decentralization
+        heterogeneity
      Dynamo's DHT
+        Virtual nodes
+        Replication
+        Preference list
      Versioning
         Version Clock
-    Handling Failures: Hinted Hand-offs
+     Executing put and get Requests
+        Coordinator
+     Handling Failures: Hinted Hand-offs
         - works well if system membership churn is low and node failures are transient
         - additional mechanism to actively detect inconsistencies
         - additional protocols to deal with node membership management
@@ -199,6 +270,7 @@
 ##### 3.3.1 Column Stores
     Limitations of RDBM
         Heavy use of joins, stored procedures, transactions
+        No SQL: stop support for secondary indexes, only have primary keys, no fixed schema 
     Advantage of Column Stores
         data locality, compression, simd instructions
     Disadvantage of Column Stores
@@ -215,8 +287,10 @@
     Big Web Table
     Big Table vs. Relational Database
     Tablets
+        partion the row set into sub-ranges called 'tablets'
         Units of data distribution and load balancing
     Data Locality
+        read and write atomic
     Column Namespace - two level hierarchy
         Top level: Column Families
         Bottom level: individual column keys
@@ -232,9 +306,11 @@
     Tablet/Region Server: Internal Architecture
     HBase API: write operations
     RPC = Remote Procedure Call
-    HBase: Compare and Check
-    HBase: Get
-    HBase: Scans
+        transfer data from client to server and back
+        writing large volumes of data: Write buffers
+    HBase API: Compare and Check
+    HBase API: Get
+    HBase API: Scans
         iterator
 #### 3.4 Global Databases
 ##### 3.4.1 Time Stamping
@@ -242,14 +318,25 @@
     Timestamp w/ Global Clock
     Timestamp Invariants
         Timestamp order = commit order
+        Timestamp order respects global wall-time order
     TrueTime (Google Spanner)
+        "Global wall-clock time" with _bounded uncertainty_
+        only localized within an interval
         commit wait
-        Implementation now epsilon
+            wait to "sit out" temporal uncertainty
+    TrueTime Architecture
+    TrueTime Implementation
+        now = reference now + local-lock offset
+        epsilon = reference epsilon + worst-case local-clock drift
 ##### 3.4.2 Google's Spanner
     What is Spanner
         Distributed multiversion database
         Bring Bit Data and RDMBS together
     Global Data Distribution Challenge
+        Shard data on a global scale
+        Shard across 1000x of nodes
+        Replicate across data centers
+        social data
     Features
         Lock-free distributed read transactions
     Lock-Free Distributed Read via Snapshoting
@@ -261,48 +348,57 @@
 ##### 3.5.1 Protocol Buffers 
     Raw Data Representation
         RDMS: rigid data schemata
+        Raw data: comes as structured data
+        Desiderata
+            process in situ, data exchange, serialize, update definitions
         XML
             - expensive parse
         JSON
             - compacter than xml, faster parsing
-    Universal Nested Data Representation: Protocol Buffers
-        Flexible, efficient, automated mechanism for serializing structured data
-            Fields: name, type, numbered
-            required, repeated, optional
-            enumeration types
-            nested records
+    Universal Nested Data Representation: Protocol Buffers is Flexible, efficient, automated mechanism for serializing structured data
+        Fields: name, type, numbered
+        required, repeated, optional
+        enumeration types
+        nested records
 ##### 3.5.2 Google's Big Query
     Dremel is scalable, interactive ad-hoc query system for analytics of read-only nested data
+        restricted SQL-dialect
     In-Situ Processing: Data Model
     Repetition Levels
+        Goal: breaking up records into column-based representation
         r(F) \in {0,...n}
-    Definition Levels
-    Lossless Columnar Representation
+        之后都要看
+        Example ??? p114
+    Definition Levels???
+    Lossless Columnar Representation???
+        preserve record structure losslessly
     Record Assembly 
     Query Language
         restricted set of SQL
     Query Execution
 ##### 3.5.3 Pig and Pig Latin
     A not-so-foreign language for Data processing: Pig Latin: Data Model
-    Inverted term index
-        Map<documentId, Set<positions> >
+    Data Model: flexible, fully nested data model
+        Inverted term index
+            Map<documentId, Set<positions> >
         term_info: (termId, termString, ...)
         position_info: (termId, documentId, position)
     Commands
         LOAD, FOREACH, FILTER, (CO-)GROUP, JOIN, UNION, CROSS, ORDER, DISTINCT, GENERATE, STORE
+    Query Execution
+        Lazy evaluation of commands -> logical plan
+        Compiled to MapReduce
     Atom, Tuple, Bag, Map
     Pig: Query Execution
 ##### 3.5.4 Hive
     A warehousing solution over a map-reduce framework
-    HiveQL
+    SQL dialect: HiveQL, compiled to MapReduce
     Three-level hierarchy
-        Tables
-        Partitions
-        Bucket
-    Data Model
-        Tables
-        Partitions
-        Bucket
+        Tables: each table <-> HDFS directory
+        Partitions: sub-directory
+        Bucket: hash of a column in table, buckets map to files
+    Hive: Query Language
+        Select, project, join, aggregate, union, all, sub-queries in from clause
     Other Execution Platforms
         Red Shift
         Impala
@@ -321,7 +417,7 @@
 ##### 5.1.2 Parallel Computing
 Type of parallelism
     Single Instruction, Multiple Instruction
-    Single DAta, Multiple Data
+    Single Data, Multiple Data
     "old school" classification: SISD, MISD, SIMD, MIMD
 Data Parallelism: splitting up the data
     Single Program Multiple Data
@@ -345,13 +441,29 @@ Limits of Parallel Computing
         OpenCL, OpenML
     Distributed Memory Hierarchy
     Grid Computing: uses middleware to divide and apportion pieces of a program among several computers
+        Grid: heterogenous computers across internet
+        Cluster: mostly homogeneous computers in "one room"
     Message Passing for Parallelism
+        synchronization
+        movement of data between address spaces
     Message Passing Interface(MPI): MPI-1, MPI-2, MPI-3
         Pros: standardization, portablity, functionality
         Cons: parallelism is explicit, no support for fault-tolerance
 ##### 5.1.4 Grid Computing
     Message Passing for Parallelism
     MPI Brief History
+    MPI: What   
+        Language-independent communication protocol to build paralle applications within and across machines
+        Interface to define virtual topology, synchronization, and communication between processes
+        Point-to-point rendezvous-type send/receive operations
+        Used for distributed memory parallelism (shared-nothing systems)
+        Low-level, highly efficient
+    MPI: Basic Concepts
+        Processors can be collected into *groups*
+        Groups can have contexts, called *colors*
+        Communicator = group + color
+        Each process has a rank within each communicator
+        Sender has to know whom, what, Reciver has to know who, what
 ##### 5.1.5 Discussion 
     High Performance Computing
         Hardware: supercomputer, communication: fast interconnections
@@ -359,6 +471,7 @@ Limits of Parallel Computing
     Pros: Speed! 
     Cons: Difficult to deal with errors and delays
     In Contrast: Commodity Hardware Clusters
+        Hardware, Software: MapReduce
         Cons: often slow, communication cost, iteration overhead
         Pros: fault tolerance, easy to program
 #### 5.2 MapReduce
@@ -369,65 +482,110 @@ Limits of Parallel Computing
     High Level Structure of MapReduce
 ##### 5.2.3 MapReduce Parallelism
     Task Breakup
+    skew: reducers' execution time
+        1. random grouping reducers into tasks
+        2. more tasks than nodes -> higher utilization
     Task Granularity
-    Perform pre-aggregation before data shuffling _Combiner_ step
+        map tasks >> machines
+        minimize time for fault recovery
+        pipeline shuffling with map execution
+        better dynamic load balancing
+    Refinement: Combiners
+        Perform pre-aggregation before data shuffling _Combiner_ step
 ##### 5.2.4 MapReduce Execution
     Data Flow
+        scheduler tries to schedule map tasks close to physical location of input data
     Master Coordination
-        master node
+        Each MapReduce is coordinates by a master node
+        Master pings worker periodically
+        Identify *straddlers跨车*
+            towards end of MR: start additional redundant tasks
+            see which one finishes first
 #### 5.3 Algorithms in MapReduce
 ##### 5.3.1 Matrix Computations in MapReduce
     Vector-Matrix Multiplication
-    Mapper = Multiplier, Reducer = Adder
+        Mapper = Multiplier, Reducer = Adder
     PageRank
         Computes quality score for each Web page based on link structure
         a_ij = 1, link from pj to pi
         o_j = \sum_i a_ij
         Markov Chain over state space (1,...,n)
-            p_ij = beta * aij/oj + (1-beta)/n
+            transition matrix: p_ij = beta * aij/oj + (1-beta)/n
         Power Method
-        MapReduce
+            iterative matrix multiplication
+            Improvement: block partitioning of matrix P
     Matrix Multiplication with Block Partitioning
         k^2 square blocks
+            Column Strip vs Block Partitioning
         Improved Matrix Multiplication
     PageRank via MapReduce: Final Remarks
+        Matrix encoding: adjacency matrix -> column sums
 ##### 5.3.2 SQL-style Computations in MapReduce
     Selection and Projection
         Selection: mapper and reducer
         Projection: mapper, reducer
     Set Operations: union, intersection, difference
-    Bag Operations: union, itersection, difference
-        Multisets
+        > mapper (X, t) -> (t, 1)  
+        > reducer (t,v) -> (t, \emptyset)
+    Bag Operations: multisets
+        union, itersection, difference
     Natural Joins 
     Grouping and Aggregation
+        (a,b,c)->(a,b)
     Matrix Multiplication via Relational Operations
         Two stages
         One stage
+            m_ij -> ((i,k), (j,m_ij)) for each k
+            n_jk -> ((i,k), (j, n_jk)) for each i
 ##### 5.3.3 Machine Learning with MapReduce
     K-means Clustering
         Each iteration = one MapReduce
     Gradient-based Machine Learning
+        map: i-> (0,     )
 ##### 5.3.4 Complexity Theory for MapReduce
+    Function Workflows
     Communication cost of a task: size of the input (in bytes)
     Communication cost of a computation: sum of communication costs of its tasks
-    Two-way join, three-way join with hashing
-    Function Workflows
-    Communication Cost for map tasks: r+s
-    Communication Cost for reduce tasks: O(r+s)
-    Reducer size: q = maximal length of value list associated with a single key
-        - practical relevance: should not exceed memory of a node
-    Replication rate r: # key-value pairs in map / #inputs
-        - average communication from Map tasks to Reduce tasks
-    Similarity Join 
-        Find all similar pairs in set X (e.g. set of images)
-        q = 2n / g???
-    Lower bound for given reducer size
-        \sum_{i=1}^k q_i^2>=n^2
+    Two-way join
+        Communication Cost for map tasks: r+s
+        Communication Cost for reduce tasks: O(r+s) (after aggregation)
+    Three-way join = 2xTwo-Way Join
+        (R X S) X T O(r+s+t+p*r*s)
+    Three-way join with hashing
+        hash B to u buckets and C to v buckets
+        (b,c)\in S -> ((g(b), h(c)), ("S",b,c)
+        (a,b)\in R -> (g(b),i), ("R", a,b), i=1..u
+        (c,d)\in T -> (j,h(c)), ("T", c,d), j=1..v
+        s + ur + vt
+        Langrange funciton optimize #buckets
+            L(u,v,\lambda) = ur + s + vt - \lambda (uv - k)
+            s + 2\sqrt(krt)
+    Example: facebook
+    Star Joins
+    Complexity Theory of MapReduce
+        Reducer size: q = maximal length of value list associated with a single key
+            - practical relevance: should not exceed memory of a node
+        Replication rate r: # key-value pairs in map / #inputs
+            - average communication from Map tasks to Reduce tasks
+        One-Pass Matrix Multiplication, qr >= 2n^2
+        Similarity Join 
+            1. Find all similar pairs in set X (e.g. set of images)
+                reduce sizse q = 2, replication r = n-1
+            2. (i, x_i) -> {({group(i),v}, (i,x_i))
+                r = g-1, q = 2n / g
+            Lower bound for given reducer size
+                \sum_{i=1}^k q_i^2>=n^2
+                r>=n/q, r = 2 n/q, optimal with factor 2
 #### 5.5 Resilient Distributed Datasets & SPARK
     Challenge: abstractions for leveraging _distributed memory_
+        Iterative Apps, 90% of time doing I/O
+        PageRank: repeatedly multiply sparse matrix and vector
     Motivation & Overview
         RDDs: parallel data structures
-    Alternating Least Square
+            fault tolerance (by lineage graph)
+            control over partitioning and replication
+            persist intermediate results in memory
+            rich set of operators for data manipulation
     |Aspect |RDDs   |Distrib. Shared Memory
     |Reads  |Coarse- or fine-grained |Fine-grained
     |Writes |Coarse-grained |Fine-grained
@@ -435,35 +593,57 @@ Limits of Parallel Computing
     |Fault recovery |Fine-grained and low-overhead using lineage    |Requires checkpoints and rollback
     |Straggler mitigation   |Using backup tasks |Difficult
     |Work placement |Automatic based on data locality   |Up to app
-    |Behavior if not enough RAM |Benign degradation |Poor (swapping?)
+    |Behavior if not enough RAM |Benign degradation |Poor (swapping)
 
     RDD = read-only, partitioned collection of records
+        (1) data in stable storage or (2) other RDDs
+    Spark Runtime
+        Driver program connects to a cluster of workers
+    Alternating Least Square
 
 ### 8 Computing with Data Streams
 #### 8.1 Introduction & Motivation
 ##### 8.1.1 Streaming Data Paradigm
     Streaming Data
+        Storage space
 ##### 8.1.2 Example: Logs Processing
     Web Search Logs
+        impressions, queries, clicks
     Click Through Prediction
-    Apache Kafka
+        Subsampling, dynamically changing query/click distribution
+        Advertisement
+    Apache Kafka: high throughput log management tool / message broker
+        Distributed, partitioned, replicated commit log service
         Kafka maintains feeds of messages in categories called _topics_
+        producers, subscribers, broker: intermediate server, communication via TCP
         Data Management
             Partition structure
             Partition management
         Consuming Data
+            each consumer instance is part of a consumer group
+            message deliverd to one consumer instance within each subscribing consumer group
+            can have as amny consumers per group as partitions
 ##### 8.1.3 Example: Internew Traffic Monitoring and Frequent Items
     Misra-Gries Algorithm (Tetris Algo)
         Approximately find the most frequent items
         Analysis
+            fj - m/k <= A[j]
+            if fj > m/k then j\in key(A)
 ##### 8.1.4 Other Examples
     Smart Meters
         > deployed by utility companies
+            predict energy needs, detect faults and fraud
+            provide customers insights into usage patterns
         > power sensors
+            each device: emasurements of instantaneous power consumption
+            maximal sampling rates: around 1MHz
+            on-device subsampling and averaging capabilities
         > data processing
     On-line Video
         > Staggering amounts of video footage
         Example: Content ID system
+            similarity join
+            comparison with reduced representation
 #### 8.2 Streaming Data Management
 ##### 8.2.1 Streaming DBMS
     Aurora, Borealis
@@ -474,9 +654,16 @@ Limits of Parallel Computing
         Spout: source data stream
         Bolt: stream processor
         Topology: a network of spouts and bolts
+    How is data grouped between bolts/spouts?
+        shuffleGrouping
+        fieldsGrouping
 ##### 8.2.4 Spark Streaming
+    Many input sources
+    Input stream is divided into batches
     Discretized Streams
 ##### 8.2.5 (Small) Streams in Programming Languages
+    Streams in Scala = lazily evaluated list
+    Streams in Java 8 
 #### 8.3 Sampling and Sample-based Estimation
 ##### 8.3.1 Introduction
     Pros
@@ -490,17 +677,33 @@ Limits of Parallel Computing
         - randomization effects, sampling noise may be hard to quantify
         - difficult to make work in general for complex (SQL-style) queries
     Notation and Formalization
+        Sample space S
+        Data X \in S
     (Sub-)Sampling
+        Based on sample size!!!
         - _with_ replacement
         - _without_ replacement
 ##### 8.3.2 Sampling
-    Bernoulli Sampling
+    Bernoulli Sampling: without replacement
     Poisson Sampling: generalization of Bernoulli sampling
-    Stratified Sampling?
+        without replacement
+    Stratified Sampling
+        Partition data set into m *strata*
+        x<12?1,  x<18?2, otherwise 0
     Reservoir Samping
-    Longitudinal Sampling?
+    Longitudinal Sampling: randomly sample a set of users
+        Extra memory (inconvenient)
+        Requires to sample users in a coordinated manner (bad!)
+        given IDs, compute X(a) = {x:x.key=a}
+        Hash
+            deterministic approximation on randomness
 ##### 8.3.3 Estimation
+    Estimator - a random function
     Statistical Estimators
+        bias:  E_S f_head - Ef
+        Var[f_head] = E_S[f_head(S) - E_S f_head]^2
+        MSE[f_head] = E_S[f_head(S) - E f]^2
+        MSE[f_head] = Var[f_head] + bias[f_head]^2
     Empirical Mean Estimator
         Unibasedness, variance
         Concentration
