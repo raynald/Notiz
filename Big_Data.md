@@ -644,14 +644,14 @@
           - rich set of operators for data manipulation
           
 |Aspect |RDDs   |Distrib. Shared Memory |
-|----- | : |   
-|Reads  |Coarse- or fine-grained |Fine-grained
-|Writes |Coarse-grained |Fine-grained
-|Consistency |Trivial (immutable) |Up to app / runtime
-|Fault recovery |Fine-grained and low-overhead using lineage    |Requires checkpoints and rollback
-|Straggler mitigation   |Using backup tasks |Difficult
-|Work placement |Automatic based on data locality   |Up to app
-|Behavior if not enough RAM |Benign degradation |Poor (swapping)
+|----- | ----- | ------ |   
+|Reads  |Coarse- or fine-grained |Fine-grained |
+|Writes |Coarse-grained |Fine-grained |
+|Consistency |Trivial (immutable) |Up to app / runtime |
+|Fault recovery |Fine-grained and low-overhead using lineage    |Requires checkpoints and rollback |
+|Straggler mitigation   |Using backup tasks |Difficult |
+|Work placement |Automatic based on data locality   |Up to app |
+|Behavior if not enough RAM |Benign degradation |Poor (swapping) |
 
   - RDD = read-only, partitioned collection of records
       - (1) data in stable storage or (2) other RDDs
@@ -1014,11 +1014,12 @@
   - Language Ecosystem
 
 |           |XML        |JSON |
-|----- | |
+|----- | ----- | ----- |
 |Navigation |XPATH      |JSONPath, JSONSelect|
 |Transform  |XSLT       |JSONT |
 |Query      |XQuery 1.0/3.0 |Xquery 3.1, JSONiq |
 |Update, Scripting  |XQuery Update Facility & Scripting |JSONiq |
+
   - XML Navigation (XPATH, XQUERY)
       - slash operator: doc("")/child::countries/child::country
       - All Axes: self:: attribute::, child::, descendant::, parent::, ancestor::..
