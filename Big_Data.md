@@ -364,18 +364,25 @@
     Dremel is scalable, interactive ad-hoc query system for analytics of read-only nested data
         restricted SQL-dialect
     In-Situ Processing: Data Model
+        Fields can be, unique(n=1), optional(n=0,1), repeated(n>=0)
     Repetition Levels
         Goal: breaking up records into column-based representation
-        r(F) \in {0,...n}
-        之后都要看
-        Example ??? p114
-    Definition Levels???
-    Lossless Columnar Representation???
+        r(F) \in {0,...n}, NULL represent omitted values
+        Example???
+    Definition Levels
+        How many optional/repeated fields in path are present in the record
+        Example???
+    Lossless Columnar Representation
         preserve record structure losslessly
+        Encoding:
+            NULL: definiton level < number of repeated + optional fields
     Record Assembly 
+        only assemble partial records that are needed
+        FSA
     Query Language
-        restricted set of SQL
+        restricted set of SQL: type of joins
     Query Execution
+        Example: one-pass aggregations
 ##### 3.5.3 Pig and Pig Latin
     A not-so-foreign language for Data processing: Pig Latin: Data Model
     Data Model: flexible, fully nested data model
@@ -705,33 +712,111 @@ Limits of Parallel Computing
         MSE[f_head] = E_S[f_head(S) - E f]^2
         MSE[f_head] = Var[f_head] + bias[f_head]^2
     Empirical Mean Estimator
-        Unibasedness, variance
+        Law of large numbers
+        Unibasedness: formula???  
+        variance: formula???  sigma^2 / n
         Concentration
-            Chebychev's inequality
+            Chebychev's inequality P{|X-E X|\le k sigma} \le 1 / k^2
+            \sigma^2 / n / \epsilon^2
         Confidence Intervals for Normal Distributions
+            ^Y = 1/n \sum_{i=1}^n Y_i
+            S^2 = 1/(n-1) \sum_{i=1}^n (Y_i - ^Y)^2
+            pivotal quantity: T = \sqrt(n) (^Y- \mu) / S
+                not depends on \mu, by sample size n 
+                P{-c<=T<\c} = 1 - \sigma
+                P{^Y-cs / \sqrt(n) \le \mu \le ^Y + cs / \sqrt(n)} = 1 - \sigma
         Central Limit Theorem
-    Mean Estimator
-    Non-uniform Sampling: Hansen-Hurwitz Estimator?
+            Assume Y_i are i.i.d from some distribution with mean \mu and variance \sigma^2 < infi
+            Lindeberg-Levy: \sqrt(n)((1/n \sum_{i=1}^n Y_i) - \mu) -> N(0, \sigma^2)
+    Mean Estimator: Sampling without replacement
+        Var[^f] = 1 / n ^ 2 \sum_i,j} f_i f_j = \sigma^2/n + (n-1)/n Cov(f_1, f_2)
+        i.i.d Cov(f_1, f_2) = 0, here < 0
+        Cov(f_1, f_2) = - sigma^2 / (N-1)
+        improvement 1 - (n-1)/(N-1)
+    Non-uniform Sampling: Hansen-Hurwitz Estimator
         with replacement
+        sample size n
+        ^f_HH = 1 / n \sum_{i=1}^n f_i / N / pi_i
+        Unbiasedness: formula
+        Variance: formula
+    Horvitz-Thompson Estimator
+        without replacement
+        ^f_HT = 1 / N \sum_{i=1}^N Z_i/pi_i f_i
+        Unbiasedness: formula
+        Variance hard to compute
     Neyman Allocation for Stratified Sampling
-    Bootstrap
+        ^f formula
+        Var formula
+            Variance reduction
+        Optimal Neyman allocation scheme
+            n_k = n \frac{N_k \sigma_k^2}{ \sum_{l=1}^{m} N_l \sigma_l^2}
+    Example
+        Body weight
+        Click-through rates
+    Bootstrap sampling
+        Estimate sampling variance from bootstrap samples
+    Union Bound (Boole's inequality)
+        formula
+        Multiple Hypothesis Testing: Illustrative Example
+            Correct analysis (Bonferroni correction)
 #### 8.4 Data Sketching
 #### 8.4.1 Bloom Filters
-    Data Sketching
+    Data Sketching: compute data statistics with small memory footprint
+    answer set membership query
     False positive rate
+    Set up the filter b = B(S) = V_{x\inS} B(x)
+    Analysis
+        formula
         f(k*;n,m)=(1/2)^k* = (0.6185)^{n/m}
+        Optimal k: ln2 n/m, ~q = 1/2
     Partitioned Bloom Filter
+        formula: q=(1-1/n)^{km} >= (1-k/n)^m = q'
+        larger false positive probabilities
 #### 8.4.2 Count-Min Sketch
     From Filtering to Counting
+        m events
+        d (depth) different hash function h_i 
+        w (width) possible values in hash function range
     Updating the Count Sketch
+        C \in [1:d] * [1:w]
+    Analysis
+        w = [e / \epsilon] 
+        d = [ln 1 / \delta]
+        bound formula
+        Increasing width results in higher accuracy
+        Increasing depth helps to avoid large deviations
+    Zipfian Distribution
+    Improved Update Rule: Minimum Increase
+        if h_i(a) = j and C_{ij} = CM(a)
     Inner Product Queries
+        CM(<n,m>) = min_i \sum_j C_ij(n) C_ij(m)
+        E[CM(<n,m>)] - <n,m> \le epsilon / e |n| |m|
     Range Queries
-    Heavy Hitters
+        compute(approximately) Q(l,r) := \sum_{i=1}^r n_i
+        Trick: use dyadic ranges
+            (x,y):[x 2^y + 1: (x+1)2^y]
+        Sketch update: O(d log m) operations
+        Every range [l:r] can be represented by \le 2 log m dyadic ranges
+        Analysis: bound
+    Heavy Hitters??
+        Find the most frequent elements in a data stream
+        there can be between 0 and 1/phi heavy hitters
+        n_e >= phi |n|
+        n_e >= (phi - epsilon) |n|
+        Space needed: O(???)
 #### 8.4.3 Count-Mean Sketch
+    Analysis 
+        bias(C_ij) = \frac{n-C_ij}{w-1}
 #### 8.4.4 Counting Distinct Elements
     Cardinality Estimation via Linear Counting
+        number of distinct elements
+    ^m = - k ln \frac{k-w}{k}
+    Cardinality Estimation from Trailing Zeros
+        Analysis:
     LogLog Counting
+        leading zeros
     HyperLogLog Counting
+        Space Needs
 #### 8.4.5 L2-Norm Estimation
     Frequency Moment Estimation
     Tug of War Sketch
@@ -910,5 +995,5 @@ Limits of Parallel Computing
     1. Gyroscope 陀螺仪, barometer 气压计；睛雨表
     3. Motto 座右铭，格言, observatory 天文台, stale 陈腐的, rack, quorum 法定人数, in-situ 原位, colossus 巨像，巨人, provenance 出处，起源
     5. granularity 间隔尺寸, straddlers, brittle 易碎的，脆弱的
-    8. sketching 草图；写生；写生画
+    8. sketching 草图；写生；写生画, dyadic 二价的；双值的；二数的
 
