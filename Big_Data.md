@@ -193,12 +193,12 @@
       - inconsistent
       - methods: 1. same order of mutations, 2. chunk version nubmers 3. restoring lost replicas from existing ones
    - Sequentializing Mutations
-        - Select a primary chunkserver
-        - Primary chunk server gets a lease (expiraiton, revoking)
-        - Concurrent writes
-        - Special support for atomic append mutations
-        - Snapshoting
-            > copy-on-write, master revokes all leases
+      - Select a primary chunkserver
+      - Primary chunk server gets a lease (expiraiton, revoking)
+      - Concurrent writes
+      - Special support for atomic append mutations
+      - Snapshoting
+          > copy-on-write, master revokes all leases
             
 ##### 3.1.4 Hadoop File System
    - NameNode = master, DataNode = Chunkserver, Data blocks = chunks
@@ -253,17 +253,17 @@
         - DNS
    - Client-side View: Causal consistency, read-your-writes consistency, session consistency, monotonic read consistency, monotonic write consistency
    - Server-side View
-        - Key design parameters
-            N: number of replica, W number of replicas need ackowledge, R number of replicas on a read access
-            W + R > N, strong consistency
-                problem: < W replicas available, write fails
-            W + R <=N, weak consistency
+     - Key design parameters
+        - N: number of replica, W number of replicas need ackowledge, R number of replicas on a read access
+        - W + R > N, strong consistency
+           - problem: < W replicas available, write fails
+        - W + R <=N, weak consistency
         - Stickiness of sessions (support read-your-writes, session, and monotonic consistency)
-            - clients are guaranteed to talk to same server -> easy to guarantee
-            - slight disadvantages for load balancing and fault tolerance
+          - clients are guaranteed to talk to same server -> easy to guarantee
+          - slight disadvantages for load balancing and fault tolerance
         - Network Partitions
-            - requirements: partitions remain available
-            - implement a merging scheme after partitions have healed
+          - requirements: partitions remain available
+          - implement a merging scheme after partitions have healed
             
 ##### 3.2.3 Dynamo: Highly Available Key-Value Store
    - Motivation: shopping carts 
@@ -644,14 +644,14 @@
           - rich set of operators for data manipulation
           
 |Aspect |RDDs   |Distrib. Shared Memory |
-  |----- | : |   
-  |Reads  |Coarse- or fine-grained |Fine-grained
-  |Writes |Coarse-grained |Fine-grained
-  |Consistency |Trivial (immutable) |Up to app / runtime
-  |Fault recovery |Fine-grained and low-overhead using lineage    |Requires checkpoints and rollback
-  |Straggler mitigation   |Using backup tasks |Difficult
-  |Work placement |Automatic based on data locality   |Up to app
-  |Behavior if not enough RAM |Benign degradation |Poor (swapping)
+|----- | : |   
+|Reads  |Coarse- or fine-grained |Fine-grained
+|Writes |Coarse-grained |Fine-grained
+|Consistency |Trivial (immutable) |Up to app / runtime
+|Fault recovery |Fine-grained and low-overhead using lineage    |Requires checkpoints and rollback
+|Straggler mitigation   |Using backup tasks |Difficult
+|Work placement |Automatic based on data locality   |Up to app
+|Behavior if not enough RAM |Benign degradation |Poor (swapping)
 
   - RDD = read-only, partitioned collection of records
       - (1) data in stable storage or (2) other RDDs
@@ -734,22 +734,22 @@
 #### 8.3 Sampling and Sample-based Estimation
 ##### 8.3.1 Introduction
   - Pros
-        - conceptual simplicity, ease of implementation
-        - developed statistical theory & methodology
-        - typically: model-free (but: not assumption free)
-        - adaptivity and trade-off of accuracy and effort/resources
+    - conceptual simplicity, ease of implementation
+    - developed statistical theory & methodology
+    - typically: model-free (but: not assumption free)
+    - adaptivity and trade-off of accuracy and effort/resources
   - Cons
-        - not suitable, if answer depends on a few items (e.g. maximum)
-        - can be expensive, relative to other methods (see later: sketching)
-        - randomization effects, sampling noise may be hard to quantify
-        - difficult to make work in general for complex (SQL-style) queries
+    - not suitable, if answer depends on a few items (e.g. maximum)
+    - can be expensive, relative to other methods (see later: sketching)
+    - randomization effects, sampling noise may be hard to quantify
+    - difficult to make work in general for complex (SQL-style) queries
   - Notation and Formalization
-      - Sample space S
-      - Data X \in S
+    - Sample space S
+    - Data X \in S
   - (Sub-)Sampling
-      - Based on sample size!!!
-        - _with_ replacement
-        - _without_ replacement
+    - Based on sample size!!!
+     - _with_ replacement
+     - _without_ replacement
 
 ##### 8.3.2 Sampling
   - Bernoulli Sampling: without replacement
@@ -1012,14 +1012,13 @@
 #### Part 3: Querying
   - Declarative Languages: What vs. How
   - Language Ecosystem
-  
+
 |           |XML        |JSON |
-|-----
+|----- | |
 |Navigation |XPATH      |JSONPath, JSONSelect|
 |Transform  |XSLT       |JSONT |
 |Query      |XQuery 1.0/3.0 |Xquery 3.1, JSONiq |
 |Update, Scripting  |XQuery Update Facility & Scripting |JSONiq |
-
   - XML Navigation (XPATH, XQUERY)
       - slash operator: doc("")/child::countries/child::country
       - All Axes: self:: attribute::, child::, descendant::, parent::, ancestor::..
