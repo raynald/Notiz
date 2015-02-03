@@ -613,7 +613,9 @@ A Bug's Life: Three challenges: the leaf as an obstacle, there is a gap in the p
         - the role of monetary and fiscal policy
  - GDP(Y): Consumption(C), Investment(I), Goverment Purchases(G), Net Exports(NX=X-M) (exports minus imports)
    - Y = C + I + G + NX
+
        = C^dom + C^for + I^dom + I^for + G^dom + G^for + X - (C^for + I^for + G^for)
+
        = C^dom + I^dom + G^dom + X
  - Economic forecast
 
@@ -678,7 +680,9 @@ A Bug's Life: Three challenges: the leaf as an obstacle, there is a gap in the p
     - Rate of innovations
     - Increased entrepreneurial activity
     - Global competition
+
   -> Pressure for radical rethinking
+
  - Development in the discipline
   - Knowledge and technology
   - Processes and routines
