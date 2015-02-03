@@ -3,7 +3,6 @@
 ### 1. Entrepreneurial Management
 - Starbucks is bringing "inspiration"
 - Toyota reinvented "how things got made", which enabled it to build cars faster and with less labor
-There is only 
 
 #### 1.1 Entrepreneurial challenges
 ##### 1.1.1 Innovation process are efficient organizational structures - but do not save us from lock-in
@@ -27,15 +26,15 @@ In the nature organizations, there is a tradeoff between modes of discovering an
 - **Effectuation**: Effectuation processes take a set of means as given and focus on selecting between possible effects that can be created with that set of means. (**Entrepreneurial Management**)
 
 Both processes have fundamentally different charateristics
-[table]
+    [table]
 
 Entrepreneurs make the shift from "economic inevitability to entrepreneurial contingency"
 
 Effectuation
 
-- Birds-in-hand, do the doable, then push it
-- Manage the loss, not the profit
-- Make other people have a stake
+- Birds-in-hand: do the doable, then push it
+- Affordable loss: Manage the loss, not the profit
+- Crazy quilt: Make other people have a stake
 
 ### 2. HRM
 - **Definition**: HRM concerns the policies, practices, and systems that influence employees' behavior, attitudes, and performance.
@@ -54,10 +53,13 @@ Effectuation
         - Protopyical procedure in personnel selection: Planing, Implementation, Evaluation
         - Validity of different selection methods: personality disposition, behavioral simulation, biographical focus
     - Extensive training
-        - Personnel development: systematic furthering of personal aptitude in relation to individual expectations and organizational requirements: education/training, counselling/coaching, management by objectives, team development, job design
+        - Personnel development: systematic furthering of personal aptitude in relation to individual expectations and organizational requirements: 
+            - education/training, counselling/coaching, management by objectives, team development, job design
         - Basic assumption of personnel development:
             - Dynamic relationship between person and work: person and work change continuously, requiring also continuosu adaptation
-            - Adaptation can happen from the perspective of "fit human to task" and/or "fit task to human": define possible career paths: e.g., management versus technical career; identify individual career needs: e.g., different types of career orientations
+            - Adaptation can happen from the perspective of "fit human to task" and/or "fit task to human": 
+                - define possible career paths: e.g., management versus technical career
+                - identify individual career needs: e.g., different types of career orientations
     - Self-managed teams and decentralization
         - Teams: several people who work together over a period of time to reach common goals and who share a sense of belonging together
         - Self-regulation: individual and collective autonomy in order to coordinate work processes and to cope with process variances and uncertainties locally
@@ -203,7 +205,7 @@ Variances of the cash resources
 Ratios include the entrepreneurial qualities and values
 
 |ratios     |Output/Input      |Base for comparisons |
-|------ | ------ |
+|------ | ------ | ----- |
 |Return on equity |=Net profit/Equity   |Other investment options and risk readiness|
 |Return on total assets |=Net profit/Equity+loans   |Other investment options and risk readiness|
 |Profit margin  |=Net income/Revenues   |Comparable only inside of one industry|
