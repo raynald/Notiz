@@ -1,9 +1,10 @@
 # Discovery Management
 
 ### 1. Entrepreneurial Management
-Starbucks is bringing "inspiration"
-Toyota reinvented "how things got made", which enabled it to build cars faster and with less labor
+- Starbucks is bringing "inspiration"
+- Toyota reinvented "how things got made", which enabled it to build cars faster and with less labor
 There is only 
+
 #### 1.1 Entrepreneurial challenges
 ##### 1.1.1 Innovation process are efficient organizational structures - but do not save us from lock-in
 1. Idea generation, 
@@ -17,6 +18,7 @@ There is only
 
 ##### 1.1.2 Exploration vs. Exploitation
 In the nature organizations, there is a tradeoff between modes of discovering and executing
+
 - **Exploration**: search, variation, risk taking, experimentation, play, flexibility, discovery, innovation; the costs of experimentaion without any of its benefits, undeveloped ideas, little distinctive competence, long-term, risky, uncertain
 - **Exploitation**: refinement, choice, production, efficiency, selection, implementation, execution, locked-in to suboptimal equilibria, can't adapt to changing circumstances, short-term, immediate, certain benefits
 
@@ -30,6 +32,7 @@ Both processes have fundamentally different charateristics
 Entrepreneurs make the shift from "economic inevitability to entrepreneurial contingency"
 
 Effectuation
+
 - Birds-in-hand, do the doable, then push it
 - Manage the loss, not the profit
 - Make other people have a stake
@@ -40,9 +43,11 @@ Effectuation
 - **Goal**: HRM aims at applying human resources within organizations such that people succeed and organizational performance improves.
 
 - **Effects**: 
-> HRM-practices(especially job design and selection/appraisal/training) better predict company performance than R&D, QM, strategy and technology
-> Empowerment better predicts company performance than technology-based management practices in the short- and long-term
-> HRM-practices as cause and effect of company performance
+	- HRM-practices(especially job design and selection/appraisal/training) better predict company performance than R&D, QM, strategy and technology
+
+	- Empowerment better predicts company performance than technology-based management practices in the short- and long-term
+
+	- HRM-practices as cause and effect of company performance
 
 - **Characteristics**: 
     - Selective hiring
@@ -77,8 +82,11 @@ Effectuation
             - Boundaryless, flattened, flexible, projected-based and team-based organizations that employ temporary, externalized and remote workers, whose tasks are more intellectual and less routine and cannot be controlled and coordinated by structure or direct supervision, need mechanisms and coordination through shared meaning systems and a shared sense of purpose
         - Management of uncertainty as strategic and operational leadership function
             - Balance between **minimizing uncertainty**, which creates stability, and **coping with uncertainty**, which creates flexibility
+            
             **Stability**: central planning, high standardization, high level of automation, little operative freedom, feedforward control
+            
             **Flexibility**: planning as local resource, little standardization, support through technology, high degrees of freedom, feedback control
+            
         - New issues in leadership
             - **Leadership portfolios**: in order to match different situational demands with adequate leadership behaviors, leaders must develop portfolios of styles and behaviors and understand when to use which behavior
             - **Shared leadership**: Leadership involves different tasks that can be taken on by different team members and may shift between team members.
@@ -119,38 +127,44 @@ Effectuation
 
 ### 3. Financial Management and Accounting
 #### Learning targets
+
 *External accounting*
-    1. Profit and loss statement: Report about the business activites results in a given period
+
+	1. Profit and loss statement: Report about the business activites results in a given period
     2. Balance sheet: Overview of the company situation regarding its assets and liabilites
     3. Financial report and cash flow statement: Statement regarding the ability to pay as well as the liquidity
+
 *Internal accounting*
+
     4. Cost accounting: Base for decision making and monitoring of the business activities
     5. Investment accounting: Comparison between the costs and benefits of the business activities
     6. Profitability: Statement about the firm's financial results in the future
+
 *Cope with*
+
     7. Payback- and net-present value calculation with practical cases
 #### 3.1 The values of accounting
-    - Legal
-        1. Legislation
-        2. Give account
-        3. Tax base
-        4. Protection and creditors
-    - Entrepreneurial
-        1. Decision support
-        2. Added value
-        3. Controlling financials
-        4. "Memory function"
-    - Internal
-        1. For the company
-        2. Costs and efficiency
-        3. Investments
-        4. Profitability (inside to outward)
-    - External
-        1. For the investors
-        2. Prices and sales
-        3. Profit and cash flow
-        4. Assets and liabilities
-        5. Liquidity (outside to inward)
+   - Legal
+    1. Legislation
+    2. Give account
+    3. Tax base
+    4. Protection and creditors
+   - Entrepreneurial
+    1. Decision support
+    2. Added value
+    3. Controlling financials
+    4. "Memory function"
+   - Internal
+    1. For the company
+    2. Costs and efficiency
+    3. Investments
+    4. Profitability (inside to outward)
+   - External
+    1. For the investors
+    2. Prices and sales
+    3. Profit and cash flow
+    4. Assets and liabilities
+    5. Liquidity (outside to inward)
 
 #### 3.2 Entrepreneurial profits as core business
     in: physical ressources, labor/ideas, money
@@ -166,40 +180,48 @@ Effectuation
     operation expenses, not operating expenses, extraordinary expenses
 ##### 3.3.2 Balance sheet
 *assets*
-  - current assets: inventories, accounts receivable (cash)
-  - fixed assets: machinery and equipment, land and buildings, financial fixed investments
+
+- current assets: inventories, accounts receivable (cash)
+- fixed assets: machinery and equipment, land and buildings, financial fixed investments
+  
 *liabilities*
+
   - liabilities: loan of money, credits, debts, accounts payable, taxes
   - owner equity: shares of the owner, accumulated profits, allocated provisions, reserves
     
 *Industrial benchmarks*
-      quick ratio, current ratio, debt/ equity ratio, gearing
+  
+  - quick ratio, current ratio, debt/ equity ratio, gearing
+      
 ##### 3.3.3 Cash flow statement
 Variances of the cash resources
-  - in/out cash of current business activities: operating results, capital consumption, variances of provisions and working capital, interest-/tax-payments
-  - in/out cash of investments: buy/sell of equipments, intangible assets, shareholdings, financial assets
-  - in/out cash of financial activities: capital increase, dividends, treasury stocks
+
+- in/out cash of current business activities: operating results, capital consumption, variances of provisions and working capital, interest-/tax-payments
+- in/out cash of investments: buy/sell of equipments, intangible assets, shareholdings, financial assets
+- in/out cash of financial activities: capital increase, dividends, treasury stocks
 
 Ratios include the entrepreneurial qualities and values
-        |ratios     |Output/Input      |Base for comparisons
-        |Return on equity |=Net profit/Equity   |Other investment options and risk readiness
-        |Return on total assets |=Net profit/Equity+loans   |Other investment options and risk readiness
-        |Profit margin  |=Net income/Revenues   |Comparable only inside of one industry
-        |Equity ratio   |=Owner equity/Net assets   |Comparable with companies related with the industry
-        |EBIT Margin    |=Earnings before interst and taxes |Ergebnis vor Finanzergebnis und vor Ertragssteuern
+
+|ratios     |Output/Input      |Base for comparisons |
+|------ | ------ |
+|Return on equity |=Net profit/Equity   |Other investment options and risk readiness|
+|Return on total assets |=Net profit/Equity+loans   |Other investment options and risk readiness|
+|Profit margin  |=Net income/Revenues   |Comparable only inside of one industry|
+|Equity ratio   |=Owner equity/Net assets   |Comparable with companies related with the industry|
+|EBIT Margin    |=Earnings before interst and taxes |Ergebnis vor Finanzergebnis und vor Ertragssteuern|
 
 #### 3.4 Operational cost calculation
 - Price Positioning
-    Structuring of total costs or cost of production
-    Accounting within cost types
+    - Structuring of total costs or cost of production
+    - Accounting within cost types
         - Personnel costs
         - Material costs
         - Other cost elements
             - energy, maintenance, taxes
         - Costing purposes
             - depreciation, interest, risks, entrepreneurial remuneration
-    [Graph]
-    Operational cost disposition
+    - [Graph]
+    - Operational cost disposition
         - Capacity (A)
             - variable costs
             - fixed costs
@@ -212,67 +234,76 @@ Ratios include the entrepreneurial qualities and values
 - Performance Measurement
 - Base for decision making
 - Support for the planning
+
 #### 3.5 Profitability
-    gross profit margin 
-    Net revenues/unit - variable costs/unit = profit margin/unit (1-6x)
+- gross profit margin 
+- Net revenues/unit - variable costs/unit = profit margin/unit (1-6x) 
+
 #### 3.6 Investment calculations
-*Static methods* (without consideration of the money interests)
-    - Costs comparison
-    - Profits comparison
-    - Rentability on investment
-    - Others
-*Dynamic methods* (with consideration of the money interests)
-    - Discounted cashflow
-    - Net present value
-    - Internal rate of interest 
-    - Others
-Impact of compound interest 
-General net cashflow of an investment or project
-**Rentability on invested capital (Return on capital)**: assess a company's efficiency at allocating the capital under its control to profitable investments.
+- *Static methods* (without consideration of the money interests)
+  - Costs comparison
+  - Profits comparison
+  - Rentability on investment
+  - Others
+- *Dynamic methods* (with consideration of the money interests)
+  - Discounted cashflow
+  - Net present value
+  - Internal rate of interest 
+  - Others
+  
+- Impact of compound interest 
+- General net cashflow of an investment or project
+- **Rentability on invested capital (Return on capital)**: assess a company's efficiency at allocating the capital under its control to profitable investments.
  - ROI = Net Income - Dividends / Total Capital
  - Rentability = revenues - costs / average captial invested * 100
-**Payback of an investment**: the length of time required to recover the cost of an investment
-    PB = Cost of Project / Annual Cash Inflows
-**Net Present Value**: The difference between the present value of cash inflows and the present value of cash outflows.
-    NPV  V = \sum_{t=1}^T \frac{C_t}{(1+r)^t} - C_0
-**Internal rate of return**: the internal rate of return on an investment or potential investment is the annualized effective compounded return rate that can be earned on the invested capital.
-    IIR = \sum_{n=0}^N \frac{C_n}{(1+r)^n} = 0
+- **Payback of an investment**: the length of time required to recover the cost of an investment
+ - PB = Cost of Project / Annual Cash Inflows
+- **Net Present Value**: The difference between the present value of cash inflows and the present value of cash outflows.
+ - NPV  V = \sum_{t=1}^T \frac{C_t}{(1+r)^t} - C_0
+- **Internal rate of return**: the internal rate of return on an investment or potential investment is the annualized effective compounded return rate that can be earned on the invested capital.
+-  IIR = \sum_{n=0}^N \frac{C_n}{(1+r)^n} = 0
 
 ### 4. Introduction to Negotiation
 #### 4.1 Basic Concepts
-    What is negotiation: Exchanges between parties designed to reconcile their differences and produce a settlement.
-    Taxonomy: [Graph]
-    Distributive vs. integrative negotiation
-        Distributive negotiation: competitive, one issue, win-lose approach
-        > usually involves a single issue - a "fixed-pie" - in which one person gains at the expense of the other. For example, haggling over the price of a rug in a bazaar is a distributive negotiation.
-        Integrative negotiation: mutual gains, many issues, win-win approach
-        > the outcomes available are no longer a "fixed-pie" divided among all parties. An agreement can be found that is better for both parites than what they would have reached through distributive negotiation.
+- What is negotiation: Exchanges between parties designed to reconcile their differences and produce a settlement.
+- Taxonomy: [Graph]
+- Distributive vs. integrative negotiation
+    - Distributive negotiation: competitive, one issue, win-lose approach
+		- usually involves a single issue - a "fixed-pie" - in which one person gains at the expense of the other. For example, haggling over the price of a rug in a bazaar is a distributive negotiation.
+    
+    - Integrative negotiation: mutual gains, many issues, win-win approach
+    	- the outcomes available are no longer a "fixed-pie" divided among all parties. An agreement can be found that is better for both parites than what they would have reached through distributive negotiation.
+
 ##### 4.1.2 Rationality
-    1. Definition often used
-    Rational under certainty: completeness, transitivity
-    Rational under uncertainty: completeness, transitivity, monotonicity, continuity, independence
-    2. Definition: Rational behavior 
-    *Behaving rationally* means
-    - the negotiaiotn _objectives_ are based on comprehensive motivations and 
-    - the _measures_ to achieve these objectives are consistent and do not violate generally acceptable conventions/customes.
-    3. Our hypothesis
-    Negotiation aprties will be considered as *behaving rationally* if
-    - The negotiation is Conducted/monitored by professional persons of the negotiation party
-    - Of which a couple of persons are not directly participating in the negotiation but work in a sort of "back-office" / "head-office" functions
-    - Where the work culture permits an internal objective/criticla  
+1. Definition often used
+Rational under certainty: completeness, transitivity
+Rational under uncertainty: completeness, transitivity, monotonicity, continuity, independence
+
+2. Definition: Rational behavior 
+*Behaving rationally* means
+- the negotiaiotn _objectives_ are based on comprehensive motivations and 
+- the _measures_ to achieve these objectives are consistent and do not violate generally acceptable conventions/customes.
+
+3. Our hypothesis
+Negotiation aprties will be considered as *behaving rationally* if
+- The negotiation is Conducted/monitored by professional persons of the negotiation party
+- Of which a couple of persons are not directly participating in the negotiation but work in a sort of "back-office" / "head-office" functions
+- Where the work culture permits an internal objective/criticla  
+
 #### 4.2 Negotiation Theories 
 ##### 4.2.1 Harvard Method
-    1. People: separate the people from the problem
-    2. Interests: focus on interests, not positions
-    3. Options: Invent multiple options looking for mutual gains before deciding what to do
-    4. Criteria: Insist that the result are based on some objective standard
+1. People: separate the people from the problem
+2. Interests: focus on interests, not positions
+3. Options: Invent multiple options looking for mutual gains before deciding what to do
+4. Criteria: Insist that the result are based on some objective standard
 ##### 4.2.2 Game Theory
-    * Analysis of *strategic decision-making* and conflict of interests among the players
-    * Result of the decision-making depends on *the other players' decisions*
-    * Strictly formalized by means of *mathematical models*
-    * Founder of the game theory: John von Neumann
+* Analysis of *strategic decision-making* and conflict of interests among the players
+* Result of the decision-making depends on *the other players' decisions*
+* Strictly formalized by means of *mathematical models*
+* Founder of the game theory: John von Neumann
 
-    Prisoners' Dilemma: Pareto, Nash
+Prisoners' Dilemma: Pareto, Nash
+
 #### 4.3 Current Case
 ##### 4.3.1 Definition
 *Negotiation engineering*
@@ -280,40 +311,42 @@ General net cashflow of an investment or project
  - the use of scientific or other methods based on objective criteria to solve the above mentioned sub-problems
 ##### 4.3.2 Case studies
 ##### 4.3.2.1 Iran-P5+1\*:Nuclear question
-    1. Backgroud
-    2. Negotiation/Swiss mediation
-    3. Result
-    4. Conclusion
+1. Backgroud
+2. Negotiation/Swiss mediation
+3. Result
+4. Conclusion
 ##### 4.3.2.2 CH-EU Land Transport Agreement
-    1. Background
-    2. Negotiation
-    3. Results
-    4. Conclusion
+1. Background
+2. Negotiation
+3. Results
+4. Conclusion
+
 #### 4.4 Negotiation Process
 ##### 4.4.1 Phases of negotiation
-    1. Recognize/identify the problem
-    2. Explore negotiation possibilities
-    3. Get a mandate
-    4. Negotiate within your mandate. If you have to change the mandate, you should be sure, that it is final.
-    5. Initial, if practice
-    6. Signing
-    7. Approval, if necessary
-    8. Entry into force
-    9. Open the champagne
+1. Recognize/identify the problem
+2. Explore negotiation possibilities
+3. Get a mandate
+4. Negotiate within your mandate. If you have to change the mandate, you should be sure, that it is final.
+5. Initial, if practice
+6. Signing
+7. Approval, if necessary
+8. Entry into force
+9. Open the champagne
 ##### 4.4.2 Preparation for negotiation
-    - Explore the situation well: Get the maximum of information on:
-        - The problem
-        - The other side's position
-        - Your possibilities
-    - Mandate-drafting is decisive:
-        - Draft it yourself, if possible
-        - Mandate should be ambitious, but reasonable/realistic so that later adaptions do not become necessary
+- Explore the situation well: Get the maximum of information on:
+    - The problem
+    - The other side's position
+    - Your possibilities
+- Mandate-drafting is decisive:
+    - Draft it yourself, if possible
+    - Mandate should be ambitious, but reasonable/realistic so that later adaptions do not become necessary
 ##### 4.4.3 Behavioral and cultural aspects
 All in all:
 - Always gaol oriented and objective
 - Intellectually skeptical and distrustful
 - Creative
 - Polite
+
 #### 4.5 ETH-NECOM Recommendations
 1. Before asking for, accepting, or refusing a negotiation, make a thorough analysis. 
 2. Negotiate in good faith, create confidence, while remaining critical.
@@ -327,46 +360,48 @@ All in all:
 
 ### 5. Logistics, Operations, and Supply Chain Management
 #### 5.1 Basic Definitions, Issues, and Challenges
-    - A *good* is something that has an economic utility or satisfies an economic want
-    - The noun form of an adjective with the meaning
-        - formerly: fitting in a building or human society
-        - today: suitable, serviceable, convenient or effective
-    - A *produce* is something produced as commodity or similar
-    - A *product* is something brought about by intellectual or physical effort
-    - An *artifact* is something created by humans, usually for a practical purpose
-    - *Materials* are the elements, consituents or substances of which something is composed or can be made. Beside raw materials, also documents, evidence, certificates or similar things may serve as materials
-    - A *component*
-        - One of several parts that together make up a whole machine
-        - With regard to a product, components are goods that become part of a product during manufacturing (e.g. through installation) or arise from a product during disposal
-    - Dimensions of a Good
-        - The nature of goods
-            - Material goods are produced or traded mainly by companies in the industrial sector
-            - Goods of non-material nature, such as information, tend to be produced, compiled or traded by companies in the service industry sector.
-        - The use of goods
-            - Investment goods are utilized by the consumer mainly to develop and manufacture other goods
-            - Consumer goods are mainly intended for direct consumption.
-        - the degree of comprehensiveness of a product
-        - The product life cycle
-        - Assignment of Terms to Value-added Management
-    Three organizational units in a logistics chain
-    A *Supply Chain* is the global network to deliver products and services from raw materials to end customers through an engineered flow of information, physical goods, and cash
-    Supply chain managemtn (SCM) is the design, planning, execution, control, and monitoring of supply chain activities. 
-    SCM is applied to the comprehensive supply chain, that is, along the entire product life cycle, within and across companies.
+- A *good* is something that has an economic utility or satisfies an economic want
+- The noun form of an adjective with the meaning
+    - formerly: fitting in a building or human society
+    - today: suitable, serviceable, convenient or effective
+- A *produce* is something produced as commodity or similar
+- A *product* is something brought about by intellectual or physical effort
+- An *artifact* is something created by humans, usually for a practical purpose
+- *Materials* are the elements, consituents or substances of which something is composed or can be made. Beside raw materials, also documents, evidence, certificates or similar things may serve as materials
+- A *component*
+    - One of several parts that together make up a whole machine
+    - With regard to a product, components are goods that become part of a product during manufacturing (e.g. through installation) or arise from a product during disposal
+- Dimensions of a Good
+    - The nature of goods
+        - Material goods are produced or traded mainly by companies in the industrial sector
+        - Goods of non-material nature, such as information, tend to be produced, compiled or traded by companies in the service industry sector.
+    - The use of goods
+        - Investment goods are utilized by the consumer mainly to develop and manufacture other goods
+        - Consumer goods are mainly intended for direct consumption.
+    - the degree of comprehensiveness of a product
+    - The product life cycle
+    - Assignment of Terms to Value-added Management
+Three organizational units in a logistics chain
+A *Supply Chain* is the global network to deliver products and services from raw materials to end customers through an engineered flow of information, physical goods, and cash
+Supply chain managemtn (SCM) is the design, planning, execution, control, and monitoring of supply chain activities. 
+SCM is applied to the comprehensive supply chain, that is, along the entire product life cycle, within and across companies.
+
 #### 5.2 Strategies in the Entrepreneurial Context
-    Target Area Quality: (Effectiveness)
-        - Main objective
-    Target Area Costs: (Efficiency)
-        - Main objective
-    Target Area Delivery: (Effectiveness)
-        - Main objective
-    Target Area Flexibility: (Potentials in the future / developing the business model)
-        - Main objective
-    Opportuneness and Opportunity Costs
-    - Opportuneness
-      - is the suitability of an action in a particular situation.
-    - Opportunity costs
-      - is defined as the return on capital that could have resulted, had the capital been used for some purpose other than its present use.
-    Potential for Conflicting Entrepreneurial Objectives
+Target Area Quality: (Effectiveness)
+    - Main objective
+Target Area Costs: (Efficiency)
+    - Main objective
+Target Area Delivery: (Effectiveness)
+    - Main objective
+Target Area Flexibility: (Potentials in the future / developing the business model)
+    - Main objective
+Opportuneness and Opportunity Costs
+- Opportuneness
+  - is the suitability of an action in a particular situation.
+- Opportunity costs
+  - is defined as the return on capital that could have resulted, had the capital been used for some purpose other than its present use.
+Potential for Conflicting Entrepreneurial Objectives
+
 #### 5.3 Performance Measuremenet
  - Logistics Performance Indicators
    - ... analyze the effect of logistics on company objectives in the four target areas of quality, cost, delivery, and flexibility
@@ -433,6 +468,7 @@ All in all:
      - Transportation within company and trans-corporate
         - automate
         - by those employees producing the products
+
 ### 6 Risk Management
 #### 6.1 What is risk?
  - Definition of Risk: risk = uncertainty + damage, risk = hazard / safeguards
@@ -464,18 +500,20 @@ All in all:
     (i) A firm specifies a risk measure that it focuses on together with additional risk metrics.
     (ii) When that risk measure exceeds the firm's tolerance for risk, risk is reduced.
     (iii) Alternatively, when the risk measure is too low for the firm's risk tolerance, the firm increases its risk.
+
 #### 6.2 Principles of management
 Strategic Objectivs -> Risk Assessment (identification, description, estimation) -> Risk Reporting -> Risk Treatment -> Monitoring
+
 #### 6.3 Power law risks
 Much Risk lies in false assumptions
 Normal distribution has characteristic scale
 Probability density functions
 **Power laws and large risks**
- > Power laws are ubiquitous
- > They express scale invariance
- > Probability of large excursion
+ - Power laws are ubiquitous
+ - They express scale invariance
+ - Probability of large excursion
    - example of height vs wealth
- > Gaussian approach inappropriate: underestimation of the real risks
+ - Gaussian approach inappropriate: underestimation of the real risks
    - Markowitz mean-variance protfolio
    - Black-Scholes option pricing and hedging
    - Asset valuation (CAPM, APT, factor models)
@@ -494,6 +532,7 @@ Take Home
 The boiling frog story
     The delayed response problem
     Crises often result from a progressive maturation towards an instability (bifurcation)
+
 #### 6.4 Creep concept and advanced diagnostics
 Signs of Upcoming transitions
  - Slower recovery from perturbations
@@ -505,6 +544,7 @@ Signs of Upcoming transitions
  - Degree of endogeneity/reflexivity
  - Super-exponential growth with positive feedbacks
 Humanity in the Anthropocene
+
 #### 6.5 Risk Management failtures
 Six types of RM failture
 1. Mismeasurement of known risks
@@ -523,6 +563,7 @@ Examples:
   
 ### 7. Technology and Innovation Management
 A Bug's Life: Three challenges: the leaf as an obstacle, there is a gap in the production line, failure in the harvesting machine - hit the princess
+
 #### 7.1 Exploitation and exploration
  - Exploitation: Refinement, production, efficiency, implementation
  - Exploration: Variation, risk taking, experimentation, play, flexibility 
@@ -558,6 +599,7 @@ Assessing coinnovation risk
        = C^dom + C^for + I^dom + I^for + G^dom + G^for + X - (C^for + I^for + G^for)
        = C^dom + I^dom + G^dom + X
  - Economic forecast
+
 #### 8.2 Forecasting methods
  - Short-Run Economic Developments
    - Economic activity fluctuates form year to year
@@ -588,8 +630,10 @@ Different definitions of business cycles
  - Econometric approaches
    - Time series econometrics
    - Structural economdetric models
+
 #### 8.3 Economic forecast
    [Graph]
+
 ### 9. Introduction to Strategic Management
  What is Strategy and Strategic Management?
  - Whether a firm achieves competitive advantage is a function of a complex mix of factors internal and external to the firm, and the strategic choices taken by decision makers (e.g. TMT, CEO)
@@ -597,6 +641,7 @@ Different definitions of business cycles
 
  Why is strategy important?
  Industry vs. Firm Effects in Performance
+
 #### 9.1 A brief history of the strategy field
  - Managers need strategy in order to position their firms relative to its competitors
  - Strategy has often been reveals after the fact - by looking at successful and unsuccessful strategic moves by firms
@@ -626,6 +671,7 @@ Different definitions of business cycles
   - Knowledge-based view
   - Capabilities-based view
   - Entrepreneurial view
+
 #### 9.2 Strategic management process
   - How does strategy come about?
     - Strategic Planning
@@ -635,6 +681,7 @@ Different definitions of business cycles
     - Define mission, vision & goal (strategic intent)
     - External analysis of opportunities and threats
     - Internal analysis of strengths and weaknesses
+
 #### 9.3 Competitive strategy
     Creating and maintaining a competitive advantage in each and every area of business
     Industry structure determines the profitability
@@ -663,12 +710,12 @@ Four levels of competitive advantage
  - Sustainable competitive advantage: A firm is alone in implementing a value-creating strategy leading to cost and/or differentiation advantages. Competitors are unable to duplicate the benefits of this strategy.
 
  Profitability ratios in strategy
- > Return on total assets (ROA)
- > Return on equity (ROE)
- > Gross profit margin
- > Earnings per share (EPS)
- > Price-earning ratio
- > Cash flow per share
+ - Return on total assets (ROA)
+ - Return on equity (ROE)
+ - Gross profit margin
+ - Earnings per share (EPS)
+ - Price-earning ratio
+ - Cash flow per share
 
 ### 10. Information Management
  - CEO leveraging IT, CIO managing IT
@@ -775,6 +822,7 @@ Four levels of competitive advantage
      6. Planning for and creating short-term wins
      7. Consolidating improvements and producing mroe change
      8. Institutionalizing new approaches
+
 #### 11.2 Forms of Renewal
  - Strategic repositioning I
    - A company must havge clear positioning, defendable competitive advantages
@@ -831,30 +879,32 @@ Four levels of competitive advantage
        - Reciprocal uses as the central model of thought: win-win situation
        - People initiate and conclude networks: trust is essential
        - Integration and standards are technical prerequisites
+
 ### 12. Marketing
- - Foundations
+- Foundations
     (Why) do firms need Marketing/ Marketing Research?
-      - Marketing is too important to be left to the marketing department.
-      - Marketing takes a day to learn. Unfortunately it takes a lifetime to master.
-      - If I'd asked people what they wanted, they would have asked for a fast horse
-      - It's not the customer's job to know what they want
-    - Often misunderstood: customer orientation does not necessarily mean that companies do exactly what (single) customers want and/or say
-      - Primary marketing research in the form of customer surveys is only one form of marketing research that is typically used for minor adaptions or improvements in customer service
-      - Organizations that believe they have to agree with everything that the customers say will often fail
+     - Marketing is too important to be left to the marketing department.
+     - Marketing takes a day to learn. Unfortunately it takes a lifetime to master.
+     - If I'd asked people what they wanted, they would have asked for a fast horse
+     - It's not the customer's job to know what they want
+- Often misunderstood: customer orientation does not necessarily mean that companies do exactly what (single) customers want and/or say
+    - Primary marketing research in the form of customer surveys is only one form of marketing research that is typically used for minor adaptions or improvements in customer service
+    - Organizations that believe they have to agree with everything that the customers say will often fail
     - Nevertheless, successful innovation always addresses (often latent) customer needs, although customers are often not able to articulate what they need
-      - Need for marketing research that discovers latent needs (from qualitative methods to large databases)
-    Example: Segway
-    Questions incorrect
-    Conclusion: Marketing is fundamentally concerned with the firms' relationships to customers
-      - The customers' needs and wishes are THE driving force not only behind marketing, but also behind the firm in general!
-      - Meeting customer wants and needs better than the competition is a firms' most critical success factor, and a central marketing task!
+    - Need for marketing research that discovers latent needs (from qualitative methods to large databases)
+ 
+ Example: Segway
+	- Questions incorrect
+    - Conclusion: Marketing is fundamentally concerned with the firms' relationships to customers
+     - The customers' needs and wishes are THE driving force not only behind marketing, but also behind the firm in general!
+     - Meeting customer wants and needs better than the competition is a firms' most critical success factor, and a central marketing task!
       - All areas of the firm, especially its leadership, need to "live and think marketing"
       - For solving managerial questions, it is essential to acquire and extend marketing knowledge and marketing information
-    Marketing as Exchange
-      Buyer, Seller
-    Why should the entire organization be involved in marketing
-      Marketing as a Leadership Philosophy
-      The marketing Orientation
+    - Marketing as Exchange
+      - Buyer, Seller
+    - Why should the entire organization be involved in marketing
+      - Marketing as a Leadership Philosophy
+      - The marketing Orientation
       - Assumption: Achieving organizational goals depends on determining the needs and wants of target markets and delivering the desired products, services and solutions more effectively and efficiently than competitors do
       - There are good reasons to believe that in free market-based economies, market(ing) orientation is superior to alternative orientations
  - The Four "Ps" of the Marketing Mix
@@ -867,24 +917,29 @@ Four levels of competitive advantage
 
 ### 13. Corporate Sustainability
 #### 13.1 Motivations of Firms to Act towards Sustainability
- - The sustainability triangle
+- The sustainability triangle
    - **Economic**: An *economically* suitainable system must be able to supply mankind with goods and services on a continuing basis.
    - **Social**: A *socially* sustainable system must achieve distributional equity, adequate provision of social services including health and education, gender equality, and political accountability and participation.
    - **Ecological**: An *environmentally* sustainable system must, among others, maintain a stable resource base, avoiding over-exploitation of renewable resource systems or environmental sink functions.
 
-    Depletion of natural resources
-      - Humanity's ecological footprint is over 50% larger than what the planet can regenerate
-      - Business as usual might reduce quality of life of future generations
-    Emissions
-      - Man-made greenhouse gas emissions lead to global climate change
-      - Climate change connected with enormous environmental and social implications (e.g., floodings, droughts), especially in poor countries
-    Social inequality
-      - Income inequality in almost all countries in on the rise
-      - Countries build wealth on debts at the expense of future generations
+  Depletion of natural resources
+    - Humanity's ecological footprint is over 50% larger than what the planet can regenerate
+    - Business as usual might reduce quality of life of future generations
+  
+  Emissions
+	- Man-made greenhouse gas emissions lead to global climate change
+	- Climate change connected with enormous environmental and social implications (e.g., floodings, droughts), especially in poor countries
+    
+  Social inequality
+     - Income inequality in almost all countries in on the rise
+     - Countries build wealth on debts at the expense of future generations
+ 
  - 4 perspectives why corporate sustainability matters
    - Market perspective, legal perspective, social perspective, ecological perspective
    - motivation, threat-driven strategy, opportunity-driven strategy, main theory
-    Example: British Petroleum, Tesla Motors, Pacific Gas & Electric, Vattenfall Europe, Fishery
+   
+   Example: British Petroleum, Tesla Motors, Pacific Gas & Electric, Vattenfall Europe, Fishery
+
 #### 13.2 Central Concepts in the Context of Corporate Sustainability
    - Corporate sustainability: some core concepts
        - Corporate Governance: *organizational and structural aspects of companies*
@@ -892,19 +947,24 @@ Four levels of competitive advantage
        - Corporate Philanthropy: *initiatives outside the direct business*
        - Corporate Social Responsibility: *on a voluntary basis within core business activities*
        - Corporate Sustainability: *corporate strategies built around social and environmental considerations*
-    Corporate Environmental Evolutionary Path
+
+	Corporate Environmental Evolutionary Path
+
     Pollution Denial -(obligation)-> End-of-pipe regulation -(opportunity)-> greening -(reorientation)-> beyond greening 
+
 #### 13.3 Management of Corporate Sustainability
-    Sustainability touches upon all corporate primary and support activities
-    [Graph]
+- Sustainability touches upon all corporate primary and support activities
+- [Graph]
+
 #### 13.4 Deep-Dive: Sustainable Technology and Innovation Management
-    Operational management of technology & innovation
-    Strategic management of technology & innovation
-    Invention, development of a new idea that has useful applications
-    Innovation, the successful introduction of an invention into the market
-    Diffusion, the spreading of an innovation in the market
-    Disruptive innovation
-        performance of the standard product exceeds the market demand
+- Operational management of technology & innovation
+- Strategic management of technology & innovation
+- Invention, development of a new idea that has useful applications
+- Innovation, the successful introduction of an invention into the market
+- Diffusion, the spreading of an innovation in the market
+- Disruptive innovation
+	- performance of the standard product exceeds the market demand
+
 ### 14. Quality Management & Business Excellence
  - Insights into Practice
     - Problems with Products: HP, GM
@@ -946,18 +1006,25 @@ Four levels of competitive advantage
 
 ### Case
 #### 1. Airline industry is locked in supply-demand cycle
+
 #### 2. HRM
 - Compare Pfeffer and Veiga's (1999) seven HRM characteristics with what you have learned about talent management at SWISS.
     - Where do you see parallels and differences?
     - How can the HR elements proposed by Pfeffer and Veiga (1999) help in promoting effective talent management at SWISS?
+
 #### 3. Finance
+
 #### 4. Cargo
+
 #### 5. Strategy
     SWISS vs. Easyjet
+
 #### 6. Marketing
 
-# Vocabulary
+## Vocabulary
+
 EBIT: earnings before interest and taxes
+
 1. ethnography , baristas 咖啡师
 6. rupture 破裂；决裂；疝气, flare 闪光, perturbation 摄动；不安
 7. Polaroid, Ambidexterity
@@ -965,7 +1032,7 @@ EBIT: earnings before interest and taxes
 11. remuneration
 12. Assortment
 14. cockpit 驾驶员座舱；战场, extrapolate, 外推；推断
-> SWISS
+- SWISS
 1. fleet 舰队, pulverize粉碎，彻底打败
 
 

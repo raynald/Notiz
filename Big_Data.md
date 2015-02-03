@@ -401,10 +401,10 @@
   - Repetition Levels
       - Goal: breaking up records into column-based representation
       - r(F) \in {0,...n}, NULL represent omitted values
-      - Example???
+      - Example
   - Definition Levels
       - How many optional/repeated fields in path are present in the record
-      - Example???
+      - Example
   - Lossless Columnar Representation
       - preserve record structure losslessly
       - Encoding:
