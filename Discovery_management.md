@@ -388,25 +388,31 @@ All in all:
     - the degree of comprehensiveness of a product
     - The product life cycle
     - Assignment of Terms to Value-added Management
+
 Three organizational units in a logistics chain
+
 A *Supply Chain* is the global network to deliver products and services from raw materials to end customers through an engineered flow of information, physical goods, and cash
+
 Supply chain managemtn (SCM) is the design, planning, execution, control, and monitoring of supply chain activities. 
 SCM is applied to the comprehensive supply chain, that is, along the entire product life cycle, within and across companies.
 
 #### 5.2 Strategies in the Entrepreneurial Context
-Target Area Quality: (Effectiveness)
+- Target Area Quality: (Effectiveness)
     - Main objective
-Target Area Costs: (Efficiency)
+- Target Area Costs: (Efficiency)
     - Main objective
-Target Area Delivery: (Effectiveness)
+- Target Area Delivery: (Effectiveness)
     - Main objective
-Target Area Flexibility: (Potentials in the future / developing the business model)
+- Target Area Flexibility: (Potentials in the future / developing the business model)
     - Main objective
+
 Opportuneness and Opportunity Costs
+
 - Opportuneness
   - is the suitability of an action in a particular situation.
 - Opportunity costs
   - is defined as the return on capital that could have resulted, had the capital been used for some purpose other than its present use.
+
 Potential for Conflicting Entrepreneurial Objectives
 
 #### 5.3 Performance Measuremenet
@@ -501,9 +507,10 @@ Potential for Conflicting Entrepreneurial Objectives
 - Economic and political risks
 
 *Role*
-1) asset the risks faced by the firm,
-2) communicate these risks to those who make risk-taking decisions for the firm,
-3) manage and monitor those risks to make sure that the firm only bears the risks its management and board of directors want it to bear.
+
+- 1) asset the risks faced by the firm,
+- 2) communicate these risks to those who make risk-taking decisions for the firm,
+- 3) manage and monitor those risks to make sure that the firm only bears the risks its management and board of directors want it to bear.
     (i) A firm specifies a risk measure that it focuses on together with additional risk metrics.
     (ii) When that risk measure exceeds the firm's tolerance for risk, risk is reduced.
     (iii) Alternatively, when the risk measure is too low for the firm's risk tolerance, the firm increases its risk.
@@ -512,36 +519,37 @@ Potential for Conflicting Entrepreneurial Objectives
 Strategic Objectivs -> Risk Assessment (identification, description, estimation) -> Risk Reporting -> Risk Treatment -> Monitoring
 
 #### 6.3 Power law risks
-Much Risk lies in false assumptions
-Normal distribution has characteristic scale
-Probability density functions
-**Power laws and large risks**
- - Power laws are ubiquitous
- - They express scale invariance
- - Probability of large excursion
-   - example of height vs wealth
- - Gaussian approach inappropriate: underestimation of the real risks
-   - Markowitz mean-variance protfolio
-   - Black-Scholes option pricing and hedging
-   - Asset valuation (CAPM, APT, factor models)
-   - Financial crashes
-Take Home
-  Failures can usually be associated with the progressive maturation of a complex system maturing progressively towards an instability (multiple entangled causes interacting with positive feedbacks).
-  System of testing and validation designed to catch such problems
+- Much Risk lies in false assumptions
+- Normal distribution has characteristic scale
+- Probability density functions
+- **Power laws and large risks**
+    - Power laws are ubiquitous
+    - They express scale invariance
+    - Probability of large excursion
+        - example of height vs wealth
+    - Gaussian approach inappropriate: underestimation of the real risks
+        - Markowitz mean-variance protfolio
+    - Black-Scholes option pricing and hedging
+    - Asset valuation (CAPM, APT, factor models)
+    - Financial crashes
+- Take Home
+  - Failures can usually be associated with the progressive maturation of a complex system maturing progressively towards an instability (multiple entangled causes interacting with positive feedbacks).
+  - System of testing and validation designed to catch such problems
     - Catastrophes occur when this system fails
-  In most cases, it takes a failure of both engineering practice and of management 
-  Reliable entrepreneurship and management depends not on developing flawless processes but on how good we are at:
+  - In most cases, it takes a failure of both engineering practice and of management 
+  - Reliable entrepreneurship and management depends not on developing flawless processes but on how good we are at:
     - Communication (sharing information between teams)
     - Management (of Resources and Risk)
     - Verification and Validation
     - Risk Identification and tracking
     - Questioning assumptions
+
 The boiling frog story
-    The delayed response problem
-    Crises often result from a progressive maturation towards an instability (bifurcation)
+    - The delayed response problem
+    - Crises often result from a progressive maturation towards an instability (bifurcation)
 
 #### 6.4 Creep concept and advanced diagnostics
-Signs of Upcoming transitions
+- Signs of Upcoming transitions
  - Slower recovery from perturbations
  - Increasing (or decreasing) autocorrelation
  - Increasing (or decreasing) cross-correlation with external driving
@@ -550,17 +558,19 @@ Signs of Upcoming transitions
  - Increased spatial coherence
  - Degree of endogeneity/reflexivity
  - Super-exponential growth with positive feedbacks
-Humanity in the Anthropocene
+- Humanity in the Anthropocene
 
 #### 6.5 Risk Management failtures
-Six types of RM failture
+- Six types of RM failture
+
 1. Mismeasurement of known risks
 2. Failure to use appropriate risk metrics
 3. Failure to take risks into account
 4. Failure in communicating the risks to top management
 5. Failure in monitoring risks
 6. Failure in managing risks
-Examples: 
+
+- Examples: 
  - Shuttle Flight 51-L(Challenger) 1986
    - Technical cause
    - Factors
@@ -575,20 +585,20 @@ A Bug's Life: Three challenges: the leaf as an obstacle, there is a gap in the p
  - Exploitation: Refinement, production, efficiency, implementation
  - Exploration: Variation, risk taking, experimentation, play, flexibility 
 
-Polaroid, and digital imaging
-Ambidexterity
-Ecosystems challenges on innovators
-Strategizing in an ecosystem
+- Polaroid, and digital imaging
+- Ambidexterity
+- Ecosystems challenges on innovators
+- Strategizing in an ecosystem
  - Innovative strategy
-    Set performance expectations and determine target market
+   - Set performance expectations and determine target market
  - Assess _interdependence risk_ of coordinating with complementary innovators
  - Assess _initiative risk_ of managing the local project
  - Assess _integration risk_ of having the solution adopted across the value chain
  - Modify performance expectations
-Michelin's PAX System
-Strategizing in a the PAX ecosystem
-Example: Digital Film
-Assessing coinnovation risk
+- Michelin's PAX System
+- Strategizing in a the PAX ecosystem
+- Example: Digital Film
+- Assessing coinnovation risk
 
 ### 8. Business and Macroeconomics
 #### 8.1 Macroeconomics
@@ -620,7 +630,7 @@ Assessing coinnovation risk
    - As output falls, unemployment rises
      - Changes in real GDP are inversely related to changes in the unemployment rate
      - During times of recession, unemployment rises substantially
-Different definitions of business cycles
+- Different definitions of business cycles
  - Business cycles are recurrent sequences of alternating phases of expansion and contraction in economic activity
  - The name `business cycle' has some ambiguity, since it can refer to conceptually different economic fluctuation
   - Classical cycle
@@ -642,21 +652,22 @@ Different definitions of business cycles
    [Graph]
 
 ### 9. Introduction to Strategic Management
- What is Strategy and Strategic Management?
- - Whether a firm achieves competitive advantage is a function of a complex mix of factors internal and external to the firm, and the strategic choices taken by decision makers (e.g. TMT, CEO)
- - *The Strategy Process*: A set of analyses and choices that increase the likelihood of developing a strategy that generates a competitive advantage
+- What is Strategy and Strategic Management?
+  - Whether a firm achieves competitive advantage is a function of a complex mix of factors internal and external to the firm, and the strategic choices taken by decision makers (e.g. TMT, CEO)
+  - *The Strategy Process*: A set of analyses and choices that increase the likelihood of developing a strategy that generates a competitive advantage
 
- Why is strategy important?
- Industry vs. Firm Effects in Performance
+- Why is strategy important?
+ - Industry vs. Firm Effects in Performance
 
 #### 9.1 A brief history of the strategy field
  - Managers need strategy in order to position their firms relative to its competitors
  - Strategy has often been reveals after the fact - by looking at successful and unsuccessful strategic moves by firms
  - The strategy discipline (practioners, consultants, academics) have sought to find ``rules of conduct'' that can predict successful strategic moves
  - Strategy research is based on statistical analysis of many firms, and single cases of successful and less successful firms
+
  1950's Phase I Financial planning (Functional control) -> 1960's Phase II Long range planning (Planning for growth Resource allocation) -> 1970's Phase III Strategic planning (Response to markets, Alternative strategies) -> 1980's Phase IV Strategic Management (Strategic processes, Competitive positioning) -> 1990's Phase V Quest for Strat Advantage (Capabilities, Resources) -> 2000's Phase V New Economy (Business Models, Disruptive technologies)
 
- Several forces push towards a rethinking of strategic management
+ - Several forces push towards a rethinking of strategic management
     - Structural change
     - Deregulation
     - Scarcity of expertise
@@ -668,7 +679,7 @@ Different definitions of business cycles
     - Increased entrepreneurial activity
     - Global competition
   -> Pressure for radical rethinking
- Development in the discipline
+ - Development in the discipline
   - Knowledge and technology
   - Processes and routines
   - History and path-dependence
@@ -690,39 +701,40 @@ Different definitions of business cycles
     - Internal analysis of strengths and weaknesses
 
 #### 9.3 Competitive strategy
-    Creating and maintaining a competitive advantage in each and every area of business
-    Industry structure determines the profitability
-        Soft Drinks, Software, Pharmaceuticals
-    The five-forces model
+ - Creating and maintaining a competitive advantage in each and every area of business
+ - Industry structure determines the profitability
+    - Soft Drinks, Software, Pharmaceuticals
+    - The five-forces model
       - Suppliees, Potential new entrants, Buyers, Substitutes, Industry competitors
  - *Cost leadership*
-    A company prices around the market average, and enjoys superior profits because its costs are lower than those of its rivals
-    Sources:  - Size differences and economies of scale
+    - A company prices around the market average, and enjoys superior profits because its costs are lower than those of its rivals
+    - Sources:  - Size differences and economies of scale
               - Experience differences learning-economies
               - Differential low-cost access to factors of production
               - Technological advantage independent of scale
               - Policy choices
  - *Differentiation*
-    A company adds value in areas of significance for the customer, who then accepts a premium price for distinctiveness of products and services
-    Sources:  - Product features
+    - A company adds value in areas of significance for the customer, who then accepts a premium price for distinctiveness of products and services
+    - Sources:  - Product features
               - Linkages between functions and complexity
               - Timing
               - Location and presence
               - Product mix
               - Links with other firms
               - Reputation
-Four levels of competitive advantage
- - Competitive disadvantage: The firm is implementing a value-destroying strategy leading to cost-disadvantage or a product that does not satisfy customer needs.
- - Competitive party: The firm and its competitors are implementing the same value-creating strategies leading to cost-advantages and/or differentiation advantages.
- - Sustainable competitive advantage: A firm is alone in implementing a value-creating strategy leading to cost and/or differentiation advantages. Competitors are unable to duplicate the benefits of this strategy.
 
- Profitability ratios in strategy
- - Return on total assets (ROA)
- - Return on equity (ROE)
- - Gross profit margin
- - Earnings per share (EPS)
- - Price-earning ratio
- - Cash flow per share
+- Four levels of competitive advantage
+  - Competitive disadvantage: The firm is implementing a value-destroying strategy leading to cost-disadvantage or a product that does not satisfy customer needs.
+  - Competitive party: The firm and its competitors are implementing the same value-creating strategies leading to cost-advantages and/or differentiation advantages.
+  - Sustainable competitive advantage: A firm is alone in implementing a value-creating strategy leading to cost and/or differentiation advantages. Competitors are unable to duplicate the benefits of this strategy.
+
+- Profitability ratios in strategy
+     - Return on total assets (ROA)
+     - Return on equity (ROE)
+     - Gross profit margin
+     - Earnings per share (EPS)
+     - Price-earning ratio
+     - Cash flow per share
 
 ### 10. Information Management
  - CEO leveraging IT, CIO managing IT
