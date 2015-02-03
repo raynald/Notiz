@@ -298,6 +298,7 @@ Negotiation aprties will be considered as *behaving rationally* if
 2. Interests: focus on interests, not positions
 3. Options: Invent multiple options looking for mutual gains before deciding what to do
 4. Criteria: Insist that the result are based on some objective standard
+
 ##### 4.2.2 Game Theory
 * Analysis of *strategic decision-making* and conflict of interests among the players
 * Result of the decision-making depends on *the other players' decisions*
@@ -311,12 +312,14 @@ Prisoners' Dilemma: Pareto, Nash
 *Negotiation engineering*
  - the application of a process by which a complex negotiatio problem is divided into sub-problems in order to make them easier solvable; 
  - the use of scientific or other methods based on objective criteria to solve the above mentioned sub-problems
+
 ##### 4.3.2 Case studies
 ##### 4.3.2.1 Iran-P5+1\*:Nuclear question
 1. Backgroud
 2. Negotiation/Swiss mediation
 3. Result
 4. Conclusion
+
 ##### 4.3.2.2 CH-EU Land Transport Agreement
 1. Background
 2. Negotiation
@@ -334,6 +337,7 @@ Prisoners' Dilemma: Pareto, Nash
 7. Approval, if necessary
 8. Entry into force
 9. Open the champagne
+
 ##### 4.4.2 Preparation for negotiation
 - Explore the situation well: Get the maximum of information on:
     - The problem
@@ -342,6 +346,7 @@ Prisoners' Dilemma: Pareto, Nash
 - Mandate-drafting is decisive:
     - Draft it yourself, if possible
     - Mandate should be ambitious, but reasonable/realistic so that later adaptions do not become necessary
+
 ##### 4.4.3 Behavioral and cultural aspects
 All in all:
 - Always gaol oriented and objective
