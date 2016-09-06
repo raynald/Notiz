@@ -224,3 +224,14 @@ zögern = hesitate
 erraten = guess
 verraten = betray
 offenbar = obvious
+bewundern = admire
+immerhin = at least
+das Lob = praise
+loben = praise
+lustig = funny, humorous
+das Zeugnis = report
+passend = appropriate
+spanend = exciting
+befriedigend = satisfactory
+begeistern = excite
+
