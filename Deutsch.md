@@ -652,3 +652,6 @@ der Pfarrer = minister
 erzogen = raise
 der Papst = pope
 der Teufel = devil
+auswendig = by heart
+bestehen = pass
+das Heft = notebook
