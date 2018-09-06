@@ -19,6 +19,9 @@ the car
  - large red L on white background in the back
  - an extra rear-view mirror
 
+- illegally -> sperrefrist (suspension for 6 month)
+
+- student and supervising driver both are liable for the driving, supervising driver consider to be the driver.
 ## 1.2 Conditions for getting a driving license
 #### Age
 - you can theory up to 6 months before turning 18
@@ -32,6 +35,7 @@ the car
 - take the practical driving test 3.16 - 10.31, complete driving in the dark before 1.31 of the following year
 
 ### Suspension period
+- begin to run when you turn 18
 ### Probation period
 - two year probation after getting your driving license for the first time
   * twice as many penalty points
@@ -77,6 +81,8 @@ brake system should apply more force to the front wheels, than the rear wheels.
 Anti-lock braking system (ABS)
 
 ## 2.3 Steerng
+The wheels should start turning before you have turned the steering wheel 3 cm
+
 power steering stops functioning, still save. However, electromagnetic power steering, it is not safe to continue driving.
 
 Electronic stability programme (ESP)
@@ -95,6 +101,8 @@ Tread depth: summer 1.6mm (3mm if use in winter), winter 3mm
 studded tyres: Northern Norway 10.16 - 4.30
 the rest: 11.01 - first Sunday after Easter Monday
 
+**Car and trail don't need to use the same type of tyre (studless and studded)**
+
 ## 2.5 Lights and visibility
 - daylight, 500 meter visibility
 - kjørerlys (separate running lights, dipped headlights or fog lights)
@@ -108,6 +116,13 @@ the rest: 11.01 - first Sunday after Easter Monday
 - parking lights (white), always lit when (headlights, tail lights, registration plate lights or fog lights are lit)
 - registration plate lights (white)
 - ryggelys (reversing lights, white or yellow)
+
+signs (inform) - indicator lights, brake lights
+signals (warn) - headlights, horn
+
+driving in fog or snow day -> only *dipped headlight*
+switched from fullbeam to dipped when 200-300 meters, look at **right hand edge of the road**
+compulsory light: license place light
 
 ## 2.6 Engine and battery
 - oil levels, check regularly
@@ -147,8 +162,9 @@ reflective vest, hazard warning triangle, seat belts, airbags
 
 when towing a trailer
 - you may not driver faster than 80 km/h, even if the speed limit is higher
-- actual weight of the trailer exceeds 300 kg, you may not drive faster than 60 km/h.
+- actual weight of the trailer exceeds 300 kg, you may not drive faster than 60 km/h. (only for *no brake*?)
 
+tongue weight
 ### Load securing
 - loads overhanging the sides of the vehicle, must not project more than 15 cm.
 - loads overhanging the front of the vehicle, must not project more than 1 metre.
@@ -161,24 +177,28 @@ marking (250 cm^2)
 # 3 The human
 ## 3.1 The driving process
 - Sensing, 90% information is through sight
- * Central vision
- * Peripheral vision
- * Fixation
+ * Central vision - between 3 and 5 degrees
+ * Peripheral vision - 180 degrees
+ * Fixation - 2-3 tenths of seconds
 
 - Perceiving
 - Deciding
 - Acting
 
+*check mirror frequently, but only glances*
+*warning reflex* 
 ## 3.2 Assessing speed and distance
+300m or more -> hard to tell slow car from high speed car
 - tunnel vision: the faster you drive, the smaller you field of view becomes
 
 ## 3.3 Your condition
-Alcohol limit - 0.02%
-
-blood alcohol concentration decrease 0.01-0.015% / hour
-
+- Alcohol limit - 0.02%
+- blood alcohol concentration decrease 0.01-0.015% / hour
+- risk thousand times if blood level 0.15% opposed to 0.05%
+- 2012, 24% fatalities driving under alcohol 
+- professional driver, can not drink 8 hours before work
 ### Feeling tired and illness
-20 hours -> alcohol 0.08% 
+awake for 20 hours -> alcohol 0.08% 
 
 ### Distractions
 
@@ -191,7 +211,7 @@ inattention time: from a potential hazard develops until you first notice the de
 # 4 Responsibilities
 ## 4.1 Condition and usage
 - Vehicle condition
-- EU inspections
+- EU inspections (approved garage)
   * fourth year after registration, every other year afterwards.
 - Child passenger safety
   * < 135 cm, or < 36kg, child restraints
@@ -230,7 +250,8 @@ vehicle damage insurance (kasko)
 
 recourse
  - all or part of the amount reimbursed by you
-
+did not hold a valid driving license
+practice driving illegally
 # 4.4 Sanctions
 - Traffic violations and penalties
 - Drink-driving
@@ -272,10 +293,13 @@ you must not consume alcohol (or other intoxicants) in the first 6 hours followi
  * Pavement
 
 Road markings in the middle of the carriageway
+
 - Lane line
 - Warning line
 - Combined line
+ * all double lines
 - Prohibitory line
+ * combined prohibitory line
 - Hatched area
 - Arrows
 - Dividing line
@@ -304,6 +328,8 @@ Other traffic lights
 - Lane control lights
 - Grade crossing signal
 - Blinking arrow
+
+yellow arrow -> soon closing
 
 ## 5.5 The police
 traffic control authority
@@ -352,10 +378,12 @@ Vulnerable road users: cyclists, pedestrains and non-motorized road users
 
 ## 6.4 Road grip
 - grip = hold = traction
-- the car's kinetic energy
+- the car's kinetic energy = 1/2 m v^2
+more kinetic energy -> less grip
 - gripping ability between tyres and road surface
 - grip -> accelerating, braking and turning
 aquaplaning: tyre lose contact with the road surface, causing you to lose control of the car.
+- offten occur when speed > 60 km/h
 
 ## 6.5 Braking and braking distances
 - inattention distance
@@ -363,11 +391,14 @@ aquaplaning: tyre lose contact with the road surface, causing you to lose contro
 - reaction distance changed by alpha
 - braking distance changed by alpha^2
 
+20 km/h, braking distance 2m
 oversteer *because of* heavy load, rear-wheel-drive, worn tyre on the rear wheel, driving with a trailer
 
 # 7 Driving in the city
 ## 7.1 Give way
 Priority-to-the-right rule
+give way to 
+  - pedestrian groups with leader
 ### Obligation to give way - other regulations
 - Obligation to give way for the bus 
  * drive with low speed (5 - 10 km/h)
@@ -381,6 +412,7 @@ Priority-to-the-right rule
 - Positioning on the road
 - Distance
 - Three second rule
+ * greater distance required when driving above 80 km/h
 - Multiple driving lanes in the same direction
 - One-way traffic
 
@@ -389,15 +421,17 @@ turn left, place car in the middle of the carriageway??
 ## 7.3 Junctions
 ## 7.4 Roundabouts
 ## 7.5 Reversing and turning around
+bind spot 7 - 15 meters
 ## 7.6 Stopping and parking
 ### Stopping - the traffic rules, no stop
 - in a junction or less than 5 meters from a junction
 - pedestrian crossing or bicycle crossings or less than five meters before such crossings.
 - less than 5 meters from a level crossing
-- At a widening of the road for a bus, taxi or tram stop or less than 20 meters from an official traffic sign for such stop.
+- At a widening of the road for a bus, taxi or tram stop or less than *20 meters* from an official traffic sign for such stop.
 - *bike path*
 ### Parking - the traffic rules
 - prohibited in pedestrian zone
+parking is prohibited in priority road with speed limit > 50 km/h
 ### Parking - the signs
 - No parking
   * until a junction, or a new parking sign (no stopping, no parking, parking zone, end of parking zone or parking)
@@ -420,7 +454,7 @@ slip road
  * trams
 - Situations where overtaking is prohibited
  * visibility restricted
- * right before or in a junction
+ * right before or in a junction (except exit)
 - Overtaking and being overtaken
 - Overtaking distance
 - Clear stretch of road needed for overtaking
@@ -430,12 +464,14 @@ slip road
 
  overtaking distance x 3 = clear stretch needed for overtaking
  
+ You must give way to buses at bus stops signalling to pull out when the speed limit is *60 km/h* or lower.
+ 
 ## 8.4 Driving in the dark
 - Limitations of the eye
  * bright to dark, 30 minutes
 - Blinding
 - Use of lights when driving in the dark
- * switch when distance 200-300 meters
+ * switch to dipped beam light when distance 200-300 meters
 - Overtaking in the dark
 
 ## 8.5 Tunnels
@@ -473,7 +509,9 @@ Tunnel safety
  * lack of driving skils (50%)
  * driving too fast (35%)
  * under the influence (23%)
- 
+
+young people at night and on weekends, high speed, lack of driving experience
+
 ## 9.4 Driving and the environment
 - Environmentally friendly choices
  * studded tire 5-20g asphalt dust / km
@@ -481,7 +519,8 @@ Tunnel safety
  * geat 2 to gear 4
  * highest gear possible, minimize the fuel consumption
  * avoid exceeding 3000 rpm.
-
+- check air filter is not blocked
+- down hill (low gear, utilise enging braking), avoid unnecessary wear on the brakes
 # 10 List of traffic signs
 ## 10.1 Warning signs
 - tunnel
@@ -494,6 +533,7 @@ Tunnel safety
 - give way for oncoming traffic
 - priority over oncoming traffic
 ## 10.3 Prohibitory signs
+*ends until next junction*
 - no vehicles
 - no transport of dangerous goods
 - axle weight limit
@@ -509,6 +549,7 @@ Tunnel safety
 - altered driving pattern
 - automatic speed control
 - end of lane
+- end of public transportation lane
 ## 10.6 Service signs
 - rest stop
 - camping park
@@ -516,9 +557,19 @@ Tunnel safety
 - attraction
 - viewpoint
 - protected nature area
+- vantage point
 ## 10.7 Direction signs
+- on motorway on blue background, others are on yellow background
+- solid direction sign (I'm on this road), dashed sign (leads to this road)
 ## 10.8 Supplementary signs
 - Degree of incline
 - particularly danger of accidents
-
+## 10.9 Marker signs
+- Background marker
+- Directional marker
+- Obstacle marker
+- Tunnel marker
+- Distance marker for tunnel
+- Edge marker
+- barrier marker
 
